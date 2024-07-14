@@ -1,0 +1,505 @@
+menu_title: '&8Варпы'
+register_command: false
+open_command: warpmenu
+update_interval: 1
+size: 45
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZmMzYzY2I5ZjIwYjNlNDgxMDkzMmMzM2I3MTVlZjk3YzFjYzdkZjYxYzgzODcxOWI1ZjcyMjAxMzgxZTgifX19
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 10
+    display_name: '&a&l〚 &aОсновное меню &a&l〛'
+    lore:
+    - ''
+    - '&7Раздел в котором собраны'
+    - '&7все необходимые функции сервера'
+    - ''
+    - '%javascript_anim55%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1YmYwYzQyYWZmMThjNWZlMmNiOGM1YzYwZmY4OGRjYTJlYjRiMjM1ZjMxOWM5MzlhNWM1ODk2M2VjNGRiIn19fQ==
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 19
+    display_name: '&d&l〚 &dКланы &d&l〛'
+    lore:
+    - ''
+    - '&7Управление кланом.'
+    - ''
+    - '%javascript_anim56%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] clanmenu'
+    right_click_commands:
+    - '[openguimenu] clanmenu'
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFlOWQ1NDAzYjJiZjQxODA1Nzc0ZDZlYjBhNjFhYWMzNGZjMTJhMmM2MTc3ZGFkMjdlZTI5MTQyZDVkMmMifX19
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 28
+    display_name: '&5&l〚 &5Варпы сервера &5&l〛'
+    lore:
+    - ''
+    - '&7Быстрая телепортация по серверу'
+    - ''
+    - '%javascript_anim27%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] warpmenu'
+    right_click_commands:
+    - '[openguimenu] warpmenu'
+  '4':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slots:
+    - 0
+    - 9
+    - 18
+    - 27
+    - 36
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '5':
+    material: purple_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 29
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim40%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '6':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 2
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim41%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '7':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 11
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim42%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '8':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 20
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim43%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '9':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 38
+    display_name: '&5&lSPOTYMC &8|&f Варпы'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&5&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim44%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &5&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &5&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &5↪&5&m                                                    &d↩'
+    - '[message]                                                     '
+  '10':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzOTgzODEzOTI2NGRlMjY2NjVmYzFjNWI4NWQ2NTg5ODkyNjI2OTJkMzg1YTJlNWFmN2I4YWVhMmJkYzYifX19
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 13
+    display_name: '&d&l➲ &dКазино'
+    lore:
+    - ''
+    - '%javascript_anim45%'
+    - ''
+    left_click_commands:
+    - '[player] warp casino'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp casino'
+    - '[close]'
+  '11':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZlYjI5YTJlYTYzNmRlYzAzODI3YjIxZTU3MzNjYmVmZTk1N2FhY2U3NDMxMTdmYWE1YmQ5NDVmMTU0NmQyOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 14
+    display_name: '&d&l➲ &dЦарь горы'
+    lore:
+    - ''
+    - '%javascript_anim46%'
+    - ''
+    left_click_commands:
+    - '[player] warp king'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp king'
+    - '[close]'
+  '12':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5MmNiNDMzMzNhYTYyMWM3MGVlZjRlYmYyOTliYTQxMmI0NDZmZTEyZTM0MWNjYzU4MmYzMTkyMTg5In19fQ==
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 15
+    display_name: '&d&l➲ &dЛаки Блоки'
+    lore:
+    - ''
+    - '%javascript_anim47%'
+    - ''
+    left_click_commands:
+    - '[player] warp lucky'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp lucky'
+    - '[close]'
+  '13':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhMzk2MGM4Nzk0NzQwMTdjMGNhM2M4MGY2ZWU3M2NmODg2ZTAwZTg5YzkwMmEzZWU4OTNkZDI4NDk1MzVjMCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 16
+    display_name: '&d&l➲ &dПвп арена'
+    lore:
+    - ''
+    - '%javascript_anim48%'
+    - ''
+    left_click_commands:
+    - '[player] warp pvp'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp pvp'
+    - '[close]'
+  '14':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY4YzcwMzEwNTE4MGQyNTg2ZDdmOTYwMTlkYWM0ODk3NzZhZTQ4OGRkNmNlYjk4MWQwOGZhZTQzMjVlYTRkMSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 22
+    display_name: '&d&l➲ &dЛесорубка'
+    lore:
+    - ''
+    - '%javascript_anim49%'
+    - ''
+    left_click_commands:
+    - '[player] warp forest'
+    - '[close]'
+    right_click_commands: 
+    - '[player] warp forest'
+    - '[close]'
+  '15':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyNjBjNTEwMTQzOWM2NGJlMjVjNDI0ZmFlNWI5OWUxZjkxMTc0NTFlOGZkNTJkODA3ODU4ZGE3OTU1OGFjMiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 23
+    display_name: '&d&l➲ &dСемья'
+    lore:
+    - ''
+    - '%javascript_anim50%'
+    - ''
+    left_click_commands:
+    - '[player] warp marry'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp marry'
+    - '[close]'
+  '16':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZkOTYwNzIyZWMyOWM2NjcxNmFlNWNhOTdiOWI2YjI2Mjg5ODRlMWQ2ZjlkMjU5MmNkMDg5OTE0MjA2YTFiIn19fQ==
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 24
+    display_name: '&d&l➲ &dТопы сервера'
+    lore:
+    - ''
+    - '%javascript_anim51%'
+    - ''
+    left_click_commands:
+    - '[player] warp top'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp top'
+    - '[close]'
+  '17':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2MTAwODBiMDEyNWZjNDI3M2JhNjAzZmIzOGZlYWFkZDFhZjAwMGI1ZmM3NGFmYTE4Y2VlNDU4NzRkMTk5NyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 25
+    display_name: '&d&l➲ &dПаркур'
+    lore:
+    - ''
+    - '%javascript_anim52%'
+    - ''
+    left_click_commands: 
+    - '[player] warp parkour'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp parkour'
+    - '[close]'
+  '18':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyMjM5MWUzNWEzZTViY2VlODlkYjMxMmU4NzRmZGM5ZDllN2E2MzUxMzE0YjgyYmRhOTdmYmQyYmU4N2ViOCJ9fX0=
+    data: 0
+    amount: 1
+    slot: 31
+    update: false
+    priority: 0
+    display_name: '&2☘ &aКейсы &e&lВЫГОДНО!'
+    lore:
+    - ''
+    - '&7Отличный шанс получить'
+    - '&7крутую привилегию за дешево!'
+    - ''
+    - '&e&l1&f ключ - &a&l15&f рублей.'
+    - '&6&l10&f ключей - &a&l40&f рублей.'
+    - '&c&l50&f ключей - &a&l100&f рублей.'
+    - ''
+    - '&cЛюбая покупка товара на нашем сайте'
+    - '&cпомогает серверу. &7(Администрация)'
+    - ''
+    left_click_commands:
+    - '[player] warp case'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[player] warp case'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+  '19':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg2YTMyYmZhYjI1YmY0ODM0ODlmMzhiNWM4NzAxOWQ3YzYzN2NiZjdiODM3YTkxNDQ2MTQ2OTg1NmI0ZjJhNCJ9fX0=
+    data: 0
+    amount: 1
+    slot: 32
+    update: true
+    priority: 0
+    display_name: '&d&l➲ &dСилач'
+    lore:
+    - ''
+    - '%javascript_anim53%'
+    - ''
+    left_click_commands:
+    - '[player] warp armor'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp armor'
+    - '[close]'
+  '20':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5ZTU0Y2JlODc4NjdkMTRiMmZiZGYzZjE4NzA4OTQzNTIwNDhkZmVjZDk2Mjg0NmRlYTg5M2IyMTU0Yzg1In19fQ==
+    data: 0
+    amount: 1
+    slot: 33
+    update: true
+    priority: 0
+    display_name: '&b&l〄 &bСлучайный телепорт'
+    lore:
+    - ''
+    - '&7Хороший способ - быстро найти'
+    - '&7территорию для дома!'
+    - ''
+    - '&7Радиус телепорта: &f2,000 блоков'
+    - ''
+    - '%javascript_anim1%'
+    - ''
+    left_click_commands:
+    - '[player] rtp'
+    right_click_commands:
+    - '[player] rtp'
+  '21':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZmMWQ2NDBhNTE1Y2RhZGVlYzUzN2IxZDMzNzEyNzE0ZjJlMzJkNTZjNTA3YjczOTk0NzQ3YTQ4NTRmYjU5MSJ9fX0=
+    data: 0
+    amount: 1
+    slot: 34
+    update: true
+    priority: 0
+    display_name: '&d&l➲ &dВарпы игроков'
+    lore:
+    - ''
+    - '%javascript_anim54%'
+    - ''
+    left_click_commands:
+    - '[player] warps 1'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps 1'
+    - '[close]'

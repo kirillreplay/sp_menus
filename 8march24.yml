@@ -1,0 +1,414 @@
+menu_title: '&8Титулы ▸ 8March24'
+register_command: true
+open_command: 8march24
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 1
+    slot: 10
+    priority: 0
+    display_name: '&aТитул &l#1 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &dС8Марта'
+    - ''
+    - '%javascript_anim21%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 0 " &dС8Марта"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &dС8Марта'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 0 " &dС8Марта"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &dС8Марта'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 2
+    slot: 11
+    priority: 0
+    display_name: '&aТитул &l#2 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &cЛюблю'
+    - ''
+    - '%javascript_anim21_1%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 1 " &cЛюблю"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cЛюблю'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 1 " &cЛюблю"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cЛюблю'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 3
+    slot: 12
+    priority: 0
+    display_name: '&aТитул &l#3 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &4Я вас всех ♥'
+    - ''
+    - '%javascript_anim21_2%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 2 " &4Я вас всех ♥"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &4Я вас всех ♥'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 2 " &4Я вас всех ♥"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &4Я вас всех ♥'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 4
+    slot: 13
+    priority: 0
+    display_name: '&aТитул &l#4 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &eНяша'
+    - ''
+    - '%javascript_anim21_3%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 3 " &eНяша"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eНяша'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 3 " &eНяша"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eНяша'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 5
+    slot: 14
+    priority: 0
+    display_name: '&aТитул &l#5 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &cღ ❤ ♡'
+    - ''
+    - '%javascript_anim21_4%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 4 " &cღ ❤ ♡"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cღ ❤ ♡'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 4 " &cღ ❤ ♡"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cღ ❤ ♡'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 6
+    slot: 15
+    priority: 0
+    display_name: '&aТитул &l#6 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &eГдеМоиПодарки'
+    - ''
+    - '%javascript_anim21_5%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " &eГдеМоиПодарки"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eГдеМоиПодарки'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " &eГдеМоиПодарки"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eГдеМоиПодарки'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 7
+    slot: 16
+    priority: 0
+    display_name: '&aТитул &l#7 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &bХочуАйфон!'
+    - ''
+    - '%javascript_anim21_6%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " &bХочуАйфон!"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &bХочуАйфон!'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " &bХочуАйфон!"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &bХочуАйфон!'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 8
+    slot: 19
+    priority: 0
+    display_name: '&aТитул &l#8 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &aПодарите?'
+    - ''
+    - '%javascript_anim21_7%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 6 " &aПодарите?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &aПодарите?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 6 " &aПодарите?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &aПодарите?'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 9
+    slot: 20
+    priority: 0
+    display_name: '&aТитул &l#9 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &cРафаэлло'
+    - ''
+    - '%javascript_anim21_8%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 7 " &cРафаэлло"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cРафаэлло'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 7 " &cРафаэлло"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cРафаэлло'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 10
+    slot: 21
+    priority: 0
+    display_name: '&aТитул &l#10 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &6ГдеЦветы?'
+    - ''
+    - '%javascript_anim21_9%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 8 " &6ГдеЦветы?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &6ГдеЦветы?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 8 " &6ГдеЦветы?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &6ГдеЦветы?'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 11
+    slot: 22
+    priority: 0
+    display_name: '&aТитул &l#11 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &cПоздравилМаму'
+    - ''
+    - '%javascript_anim21_10%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 9 " &cПоздравилМаму"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cПоздравилМаму'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 9 " &cПоздравилМаму"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cПоздравилМаму'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 12
+    slot: 23
+    priority: 0
+    display_name: '&aТитул &l#12 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &eПошелТы'
+    - ''
+    - '%javascript_anim21_11%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " &eПошелТы"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eПошелТы'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " &eПошелТы"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &eПошелТы'
+    - '[close]'
+  '13':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 13
+    slot: 24
+    priority: 0
+    display_name: '&aТитул &l#13 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &cМнеКонфеты'
+    - ''
+    - '%javascript_anim21_12%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 11 " &cМнеКонфеты"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cМнеКонфеты'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 11 " &cМнеКонфеты"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &cМнеКонфеты'
+    - '[close]'
+  '14':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 14
+    slot: 25
+    priority: 0
+    display_name: '&aТитул &l#14 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &8НеПоздравлять'
+    - ''
+    - '%javascript_anim21_13%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 12 " &8НеПоздравлять"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &8НеПоздравлять'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 12 " &8НеПоздравлять"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &8НеПоздравлять'
+    - '[close]'
+  '15':
+    material: creeper_banner_pattern
+    data: 0
+    update: true
+    amount: 15
+    slot: 28
+    priority: 0
+    display_name: '&aТитул &l#15 &7(8MARCH24#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &dЧтоТакоеМарт?'
+    - ''
+    - '%javascript_anim21_14%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 13 " &dЧтоТакоеМарт?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &dЧтоТакоеМарт?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 13 " &dЧтоТакоеМарт?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &dЧтоТакоеМарт?'
+    - '[close]'
+  '16':
+    material: spectral_arrow
+    data: 0
+    update: true
+    amount: 1
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim17%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] titles'
+    right_click_commands:
+    - '[openguimenu] titles'

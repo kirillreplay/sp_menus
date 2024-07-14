@@ -1,0 +1,215 @@
+menu_title: '&8Титулы'
+register_command: true
+open_command:
+- titles
+- titul
+- titule
+- titules
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBjZTVhOWMyZmMwYjQ5OTVmMDZlMWIwMmVjOTA5NzdlM2M1Y2U1N2Q4MTUyMDUzNDJmYjhkNGQ1MTcyOTA5YyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&fНабор титулов: &8"&d8March24&8"'
+    lore:
+    - ''
+    - '&7Набор титулов добавленный'
+    - '&7специально для события "8 марта(2024)".'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| &dС8Марта&8, &cЛюблю&8, &4Я вас всех ♥&8, &eНяша&8,'
+    - ' &8&k| &cღ ❤ ♡&8, &eГдеМоиПодарки&8, &bХочуАйфон!&8,'
+    - ' &8&k| &aПодарите?&8, &cРафаэлло&8, &6ГдеЦветы?&8,'
+    - ' &8&k| &cПоздравилМаму&8, &eПошелТы&8, &cМнеКонфеты&8,'
+    - ' &8&k| &8НеПоздравлять&8, &dЧтоТакоеМарт?&8.'
+    - ''
+    - '%javascript_anim22%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] 8march24'
+    right_click_commands:
+    - '[openguimenu] 8march24'
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE2ZGFmZjZkNjM2ZDMzMWNlZmEzY2I4NTAyNjJhNDM4Zjg1MzYxNTlmNjE2OGI1YTQ2MGQ4MWRkNjM1NTlhMyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 53
+    priority: 0
+    display_name: '&bОчистить'
+    lore:
+    - ''
+    - '&7Очистить текущий титул'
+    - ''
+    - '%javascript_anim23%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[close]'
+  '3':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim17%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] custom'
+    right_click_commands:
+    - '[openguimenu] custom'
+  '4':
+    material: gray_stained_glass_pane
+    data: 0
+    amount: 1
+    slots:
+    - 16
+    - 19-25
+    - 28-34
+    display_name: '&8soon'
+    lore:
+    - ''
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg2OGRkNTBiY2I3M2M0N2M0YWFlZTc1YzdlYjNjNzA5Nzg4NWQ0YTlkZDM0YTU3YzhjYTQ4ZGUzYjc2NTk4YSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&fНабор титулов: &8"&aMemes#1&8"'
+    lore:
+    - ''
+    - '&7&mПлатные&r &7Бесплатные тематические титулы'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| &aШрек&8, &cНамана?&8, &2Котик&8, &eКапибара&8,'
+    - ' &8&k| &9Сигма&8, &cГослинг&8, &6Literally me&8,'
+    - ' &8&k| &4ДаПо*батьМне&8, &9Русы&8, &2Ящеры?&8,'
+    - ' &8&k| &cДорожеРодины&8, &dБарби&8, &bНеВсеПоймут&8,'
+    - ' &8&k| &7СкибидиТуалет&8, &bШайлушай&8.'
+    - ''
+    - '%javascript_anim22_1%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] memes1'
+    right_click_commands:
+    - '[openguimenu] memes1'
+  '6':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUzNjhmNTYzNWZmNmMzNDA3ZjBmMzU2YzViNmUwOTQ3YmNkNWUzODQ5MGM5YWE4YjhiNTgyYTRmMjFhZTNjYiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&fНабор титулов: &8"&bWinter23&8"'
+    lore:
+    - ''
+    - '&7Набор титулов добавленный'
+    - '&7специально для события "зима(2023)".'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| &bWinter&8, &cChristmas&8, &bSnowman☃&8, &bSnow&8,'
+    - ' &8&k| &cWonderLand&8, &fSnowflake&8, &bNewYear&8,'
+    - ' &8&k| &6Мандаринка&8, &b❆Снежинка❆&8, &6Салют&8,'
+    - ' &8&k| &cДедМороз&8, &6Печеньку?&8, &b☃Снеговичок☃&8,'
+    - ' &8&k| &6Елка&8, &d⋆꙳Магия꙳⋆&8.'
+    - ''
+    - '%javascript_anim22_2%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] winter23'
+    right_click_commands:
+    - '[openguimenu] winter23'
+  '7':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlMTE5YTIzODJlZGE4NjRiMjQ0ZmE4YzUzYWMzZTU0NDE2MzEwM2VlNjY3OTVmMGNkNmM2NGY3YWJiOGNmMSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&fНабор титулов: &8"&3Thunder&8"'
+    lore:
+    - ''
+    - '&7Набор титулов добавленный'
+    - '&7специально для привилегии Thunder.'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| &3Тандер&8, &3Thunder&8, &3Гром?&8, &3Шутник&8,'
+    - ' &8&k| &3Вкинулся&8, &3Попрыгай&8, &3Новый&8,'
+    - ' &8&k| &3Варн&8, &3Сюда&8, &3Когда?&8,'
+    - ' &8&k| &3ТпКомне&8, &3+rcon&8, &3Reconnect&8,'
+    - ' &8&k| &3читер&8, &3расскажи.'
+    - ''
+    - '%javascript_anim22_3%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] thunder'
+    right_click_commands:
+    - '[openguimenu] thunder'
+  '8':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg2OTAyY2M1YzIxMjY2Yjg3OTM4ZThmMzExOWNhNGUzYjNjZTk4NTI0MTQxODQ1YjA0NzhmNzM5ZmRkMGNhMyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&fНабор титулов: &8"&6Halloween2023&8"'
+    lore:
+    - ''
+    - '&7Набор титулов добавленный'
+    - '&7специально для события "Хэллоуин(2023)".'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| &6Spooky&8, &6Halloween&8, &6R.I.P&8, &6Bat&8,'
+    - ' &8&k| &6SpiderWeb&8, &6Ghost&8, &6Pumpkin&8,'
+    - ' &8&k| &6Тыковка&8, &6Бууу&8, &6Паук&8,'
+    - ' &8&k| &6Испугался?&8, &6Скелет&8, &6Печенька&8,'
+    - ' &8&k| &6☠Мертв☠&8, &6⚔Зарежу⚔&8.'
+    - ''
+    - '%javascript_anim22_4%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] halloween23'
+    right_click_commands:
+    - '[openguimenu] halloween23'
+  '9':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI5MGMxMTU1MzExMjAwOWM2NzcxNjcyMjE5MWQ5NDg5YjM3MzQ2ZmVjZWE5ZmYwN2E0OGUzMzliNTUxYTkwMiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&fНабор титулов: &8"&aSpotyMC&8"'
+    lore:
+    - ''
+    - '&7&mПлатные&r &7Бесплатные тематические титулы'
+    - ''
+    - '&7Список титулов:'
+    - ' &8&k| §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд&8, §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр&8,'
+    - ' &8&k| §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе&8, §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?&8,'
+    - ' &8&k| §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл&8,'
+    - ' &8&k| §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0&8, &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а&8,'
+    - ' &8&k| §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?&8, §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t&8,'
+    - ' &8&k| §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х&8, §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?&8,'
+    - ' &8&k| §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?&8.'
+    - ''
+    - '%javascript_anim22_5%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] spotytitles'
+    right_click_commands:
+    - '[openguimenu] spotytitles'

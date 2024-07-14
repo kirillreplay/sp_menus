@@ -1,0 +1,115 @@
+menu_title: '&8Кастомизация'
+register_command: true
+open_command:
+- custom
+- customization
+- profile
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZhMDU2YWI0MmM1MTk3NTBjZjdkYTQ1ZDllYTQ5ODQ3NmE5NDMxZjBkYjI1MmMxNWU5ZjhiYTEzMGE1MjBmNyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 31
+    priority: 0
+    display_name: '&aТитулы'
+    lore:
+    - ''
+    - '&7Титулы - отображаются в табе/чате'
+    - '&7после вашего ника.'
+    - ''
+    - '&7Ваш текущий титул: %vault_suffix%'
+    - ''
+    - '%javascript_anim19%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] titles'
+    right_click_commands:
+    - '[openguimenu] titles'
+  '2':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&cЗакрыть'
+    lore:
+    - ''
+    - '&7Быстрый способ закрыть меню'
+    - ''
+    - '%javascript_anim78%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzODU1MGI1ZGFjOWVmYWZhODg5OTQ1YWVjM2JjZDE3OGNiODgwODA2ZWI3ZTcxMmQxYmQ5NmE2MWRmMjNmNiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 29
+    priority: 0
+    display_name: '&dСмена префикса'
+    lore:
+    - ''
+    - '&7Смена префикса - позволит вам'
+    - '&7выделиться среди толпы.'
+    - ''
+    - ' &7Данная система позволяет'
+    - ' &7ставить абсолютно любой префикс!'
+    - ''
+    - ' &7Ваш текущий префикс: %vault_prefix% %player_name%'
+    - ''
+    - '%javascript_anim79%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] prefix'
+    right_click_commands:
+    - '[openguimenu] prefix'
+  '4':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVkZDdmNzQwYWNmZDg4MTUwZTczZTMxYTE1ZTQ5NGRjYjczZmViOGZhN2MyMTMwYTg4NjBmZDViNjFmNDE5ZCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 33
+    priority: 0
+    display_name: '&bСообщение при входе'
+    lore:
+    - ''
+    - '&7Сообщение при входе помогает'
+    - '&7эффектно зайти на сервер!'
+    - ''
+    - ' &7Данная система позволяет'
+    - ' &7менять&f символ при входе &7и'
+    - ' &fсообщение при входе.'
+    - ''
+    - ' &7Ваш текущий текст:'
+    - ' &cнету'
+    - ''
+    - '%javascript_anim80%'
+    - ''
+    left_click_commands:
+    - '[player] jointext'
+    right_click_commands:
+    - '[player] jointext'
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5ZTU0Y2JlODc4NjdkMTRiMmZiZGYzZjE4NzA4OTQzNTIwNDhkZmVjZDk2Mjg0NmRlYTg5M2IyMTU0Yzg1In19fQ==
+    data: 0
+    amount: 1
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&bСмена языка'
+    lore:
+    - ''
+    - '&8Кому нужна локализация на'
+    - '&8школосервере?'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

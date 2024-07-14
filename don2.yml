@@ -1,0 +1,328 @@
+menu_title: '&8Дополнительные услуги'
+open_command:
+- don2
+- od
+- rcon
+- off
+- 1.6
+- donate2
+- offmoder
+- rcpn
+size: 54
+update_interval: 1
+register_command: true
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFjOTZlOGNmODNjYmFkZTU1ZmZhNjY3MTk3ZWE2OTkwMjkwZTVjN2RjNjc5MTA0MzMyY2FlYWQ5N2VlZjA5In19fQ==
+    data: 0
+    update: true
+    amount: 1
+    slot: 21
+    priority: 0
+    display_name: '&bРкон бот'
+    lore:
+    - ''
+    - '&7Наш RCON бот который помогает'
+    - '&7модерировать на сервере. Выполняет все'
+    - '&7ваши команды!'
+    - ''
+    - ' &fДоступ к боту можно приобрести'
+    - ' &fна сайте: &ashop.spotymc.ru'
+    - ''
+    - ' %javascript_anim15%'
+    - ''
+    - ' &cБот работает всё время'
+    - ''
+    - '%javascript_anim16%'
+    - ''
+    left_click_commands:
+    - '[message] '
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ркона нет'
+    - '[message] '
+    - '[close]'
+    right_click_commands:
+    - '[message] '
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ркона нет'
+    - '[message] '
+    - '[close]'
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgzMDg5MzNhNjcyYzY0ZmJjMTg0M2MyZGE0NjRkYTY3NzllMmFkZjczM2RmYzNjOWVlNjZhNGVkY2NmY2YifX19
+    data: 0
+    update: true
+    amount: 1
+    slot: 22
+    priority: 0
+    display_name: '&bВыдача доната через /seller'
+    lore:
+    - ''
+    - '&7Команда &f/seller&7 позволяет выдавать'
+    - '&7любой донат игроку! Команда обновлена!'
+    - ''
+    - '%javascript_anim33%'
+    - ''
+    - '&cВыдача производится автоматически'
+    - ''
+    - '&a&lshop.spotymc.ru'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYzMDI5Y2M4MTY3ODk3ZTY1MzVhM2M1NzM0YmJhYmFmZjE4OGQwOTA1ZjlkOTM1M2FmYWM2MmEwNmRhZGY4NiJ9fX0=
+    data: 0
+    update: true
+    amount: 1
+    slot: 23
+    priority: 0
+    display_name: '&bИсключения из правил'
+    lore:
+    - ''
+    - '&7Мы предоставляем возможность'
+    - '&7обходить некоторые наши правила'
+    - '&7которые не несут угрозы серверу.'
+    - ''
+    - '%javascript_anim34%'
+    - ''
+    - '&cВыдача производится вручную,'
+    - '&cпосле покупки пишите в группу'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  '4':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxMDMwMTBkYmUyZGIyYWEwMzczZTYwYTgzZGRlNWJkY2I3NTg0OGM2ZmM3NzU4MzI2ZmVjZjczNDU5NDVlIn19fQ==
+    data: 0
+    update: true
+    amount: 1
+    slot: 24
+    priority: 0
+    display_name: '&6&lАДМИНИСТРАТОР'
+    lore:
+    - ''
+    - '&7Администратор - набор прав,'
+    - '&7в который входит:'
+    - ''
+    - ' &e➲&f Ваш ник в списке администраторов;'
+    - ' &e➲&f Ваш ник в правилах сервера 1.6, 1.9, 1.10;'
+    - ' &e➲&f Специальная привилегия ПОЛНЫЕ ПРАВА &7(или же FULL)&f;'
+    - ' &e➲&f Доступ к РКОН боту;'
+    - ' &e➲&f Доступ к WE&7(//set 0)&f вне рг.'
+    - ''
+    - '%javascript_anim35%'
+    - ''
+    - '&cВыдача производится вручную,'
+    - '&cпосле покупки пишите в группу'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwNjNiYTViMTZiNzAzMGEyMGNlNmYwZWE5NmRjZDI0YjA2NDgzNmY1NzA0NTZjZGJmYzllODYxYTc1ODVhNSJ9fX0=
+    data: 0
+    amount: 1
+    slot: 20
+    priority: 0
+    display_name: '&f⦓&aＯＦＦ ＭＯＤＥＲ&f⦔ ➪ &4&m18999 &a&n９９９&f Рублей'
+    lore:
+    - ''
+    - '&eИнформация:'
+    - '&a➮&f Цена: &a９９９&f рублей &7НАВСЕГДА'
+    - '&a➮&f Префикс в чате: &f⦓&aＯＦＦ ＭＯＤＥＲ&f⦔ %player_name%'
+    - '&a➮&f Префикс в табе: &f⦓&aＯＦＦ ＭＯＤＥＲ&f⦔ %player_name%'
+    - ''
+    - '&eКоманды:'
+    - '&a➮&f Режим абсолютной невидимки: &a/svanish &7(/sv)'
+    - '&a➮&f Просмотр изменений блока: &a/co i'
+    - '&a➮&f Проверка текста игрока при входе: &a/joiner info &7[ник]'
+    - '&a➮&f Возможность выдавать привилегий с помощью: &a/givepex'
+    - '&a➮&f ⦓&a&lＳＰＯＴＹ&f⦔, &f⦓§x§F§F§3§B§1§E§lＳ§x§F§F§3§1§1§9§lＵ§x§F§F§2§7§1§4§lＰ§x§F§F§1§E§0§F§lＰ§x§F§F§1§4§0§A§lＯ§x§F§F§0§A§0§5§lＲ§x§F§F§0§0§0§0§lＴ&f⦔'
+    - ''
+    - '&fЦена привилегии: &a９９９&f Рублей'
+    - ''
+    - '&eДополнительные возможности:'
+    - '&a➮&f Оповещение при поломке спавна'
+    - '&a➮&f Возможность спрашивать док-ва на наказания'
+    - '&a➮&f Возможность вызывать на проверку ПО &7(читы)'
+    - '&a➮&f Возможность просматривать информацию о выдаче доната'
+    - '&a➮&f Телепортация игрока к себе на оснований проверки'
+    - '&a➮&f Добавление в список ВЫСШЕЙ АДМИНИСТРАЦИИ в группе ВК'
+    - '&a➮&f Нет задержек в премиум-чате &a/pc'
+    - '&a➮&f Отключены задержки на &aкоманды'
+    - '&a➮&f Отключены задержки чата и проверки на рекламу в чате.'
+    - '&a➮&f У вас вечный &aиммунитет&f от бана/кика/мута и т.д.'
+    - '&a➮&f Возможность приватить &a∞&f регионов &7(Бесконечность)'
+    - '&a➮&f Возможность делать приват &a∞&f блоков &7(Бесконечность)'
+    - '&a➮&f Возможность делать &a∞&f точек дома &7(Бесконечность)'
+    - ''
+    - '&a➮&f Все возможности привилегий ниже'
+    - ''
+    - '&a➮&f Привилегия после &a&lВайпа не снимается.'
+    - '&a➮&f Приобрести можно на сайте &a&lshop.spotymc.ru'
+    - '&7Нарушение правил карается снятием привилегии.'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  'green':
+    material: lime_stained_glass_pane
+    update: true
+    amount: 1
+    priority: 0
+    slots:
+    - 0-8
+    display_name: '&a&lSPOTYMC &8|&f Дополнительные услуги'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim5%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  'green2':
+    material: lime_stained_glass_pane
+    update: true
+    amount: 1
+    priority: 0
+    slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '&a&lSPOTYMC &8|&f Дополнительные услуги'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim5_1%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[close]'
+  'exit':
+    material: spectral_arrow
+    data: 0
+    update: true
+    amount: 1
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim17%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] don'
+    right_click_commands:
+    - '[openguimenu] don'

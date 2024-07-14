@@ -1,0 +1,612 @@
+menu_title: '&8Префиксы ▸ [Титан]'
+register_command: true
+open_command: titanprefix
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&bПрефикс &b&l#1 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&aТитан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim117%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%titanprefix1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&aТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aТитан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%titanprefix1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&aТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aТитан&f]'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 2
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&bПрефикс &b&l#2 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&4Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim118%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%titanprefix2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&4Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b1:
+          type: has permission
+          permission: '%titanprefix2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&4Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Титан&f]'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 3
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&bПрефикс &b&l#3 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&eТитан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim119%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%titanprefix3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&eТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eТитан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g1:
+          type: has permission
+          permission: '%titanprefix3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&eТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eТитан&f]'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 4
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&bПрефикс &b&l#4 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&6Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim120%'
+    - ''
+    left_click_requirement:
+      requirements:
+        z:
+          type: has permission
+          permission: '%titanprefix4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&6Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        z1:
+          type: has permission
+          permission: '%titanprefix4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&6Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6Титан&f]'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 5
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&bПрефикс &b&l#5 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&2Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim121%'
+    - ''
+    left_click_requirement:
+      requirements:
+        x:
+          type: has permission
+          permission: '%titanprefix5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&2Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&2Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        x1:
+          type: has permission
+          permission: '%titanprefix5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&2Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&2Титан&f]'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 6
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&bПрефикс &b&l#6 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&3Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim122%'
+    - ''
+    left_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: '%titanprefix6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&3Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&3Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        c1:
+          type: has permission
+          permission: '%titanprefix6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&3Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&3Титан&f]'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 7
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&bПрефикс &b&l#7 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&8Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim123%'
+    - ''
+    left_click_requirement:
+      requirements:
+        v:
+          type: has permission
+          permission: '%titanprefix7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&8Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&8Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        v1:
+          type: has permission
+          permission: '%titanprefix7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&8Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&8Титан&f]'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 8
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&bПрефикс &b&l#8 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim124%'
+    - ''
+    left_click_requirement:
+      requirements:
+        n:
+          type: has permission
+          permission: '%titanprefix8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&0Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        n1:
+          type: has permission
+          permission: '%titanprefix8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&0Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Титан&f]'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 9
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&bПрефикс &b&l#9 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&fТитан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim125%'
+    - ''
+    left_click_requirement:
+      requirements:
+        m:
+          type: has permission
+          permission: '%titanprefix9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&fТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fТитан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        m1:
+          type: has permission
+          permission: '%titanprefix9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&fТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fТитан&f]'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 10
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&bПрефикс &b&l#10 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&dТитан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim126%'
+    - ''
+    left_click_requirement:
+      requirements:
+        s:
+          type: has permission
+          permission: '%titanprefix10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&dТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&dТитан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        s1:
+          type: has permission
+          permission: '%titanprefix10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&dТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&dТитан&f]'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 11
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&bПрефикс &b&l#11 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&5Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim127%'
+    - ''
+    left_click_requirement:
+      requirements:
+        r:
+          type: has permission
+          permission: '%titanprefix11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&5Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        r1:
+          type: has permission
+          permission: '%titanprefix11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands: 
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&5Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Титан&f]'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 12
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&bПрефикс &b&l#12 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&1Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim128%'
+    - ''
+    left_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%titanprefix12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&1Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&1Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        t1:
+          type: has permission
+          permission: '%titanprefix12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&1Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&1Титан&f]'
+    - '[close]'
+  '13':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 13
+    update: true
+    slot: 24
+    priority: 0
+    display_name: '&bПрефикс &b&l#13 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&7Титан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim129%'
+    - ''
+    left_click_requirement:
+      requirements:
+        l:
+          type: has permission
+          permission: '%titanprefix13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&7Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&7Титан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        l1:
+          type: has permission
+          permission: '%titanprefix13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&7Титан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&7Титан&f]'
+    - '[close]'
+  '14':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 14
+    update: true
+    slot: 25
+    priority: 0
+    display_name: '&bПрефикс &b&l#14 &7(TITAN#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&f&nТитан&f]'
+    - ''
+    - ' &fДоступ от привилегии: &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim130%'
+    - ''
+    left_click_requirement:
+      requirements:
+        k:
+          type: has permission
+          permission: '%titanprefix14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&f&nТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&f&nТитан&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        k1:
+          type: has permission
+          permission: '%titanprefix14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f[&cТитан&f]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&f&nТитан&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&f&nТитан&f]'
+    - '[close]'
+  '15':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 49
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] groupprefix'
+    right_click_commands:
+    - '[openguimenu] groupprefix'

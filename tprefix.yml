@@ -1,0 +1,110 @@
+menu_title: '&8Префиксы ▸ Тематические'
+register_command: true
+open_command: tprefix
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjNDIwOGFlODA5ZDE2NmQyZjFlOWMzYjBiNDVjZDI4ODRjMWZiZDJlMTZiMDM4MjY2ZGRjODg5MGIwNjAzZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&fНабор &8"&cMarvel&8"'
+    lore:
+    - ''
+    - '&7Список уникальных префиксов'
+    - '&7в рамках киновселенной Marvel'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim90%'
+    - ''
+    left_click_requirements:
+      requirement:
+        a:
+          type: has permission
+          permission: '%mervel.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[openguimenu] mervelprefix'
+    right_click_requirements:
+      requirement:
+        a1:
+          type: has permission
+          permission: '%mervel.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[openguimenu] mervelprefix'
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZmY2MWE3MmU3MzA4MGYxOWYxNDFlZjdlMzk3MjQzNDdkNTJmN2E1MGM0NTljOGMzNTA3YTBlODkzN2FkZCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&fНабор &8"&9DC Comics&8"'
+    lore:
+    - ''
+    - '&7Список уникальных префиксов'
+    - '&7в рамках киновселенной DC'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim91%'
+    - ''
+    left_click_requirements:
+      requirement:
+        a:
+          type: has permission
+          permission: '%dc.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[openguimenu] dcprefix'
+    right_click_requirements:
+      requirement:
+        a1:
+          type: has permission
+          permission: '%dc.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[openguimenu] dcprefix'
+  '3':
+    material: gray_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slots: 
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19-25
+    - 28-34
+    display_name: '&8soon'
+    lore:
+    - ''
+  '4':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim92%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] prefix'
+    right_click_commands:
+    - '[openguimenu] prefix'

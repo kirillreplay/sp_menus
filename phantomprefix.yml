@@ -1,0 +1,570 @@
+menu_title: '&8Префиксы ▸ ⦓ＰＨＡＮＴＯＭ⦔'
+register_command: true
+open_command: phantomprefix
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&bПрефикс &b&l#1 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&6&lＵＲＭＯＭ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim117%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%phantomprefix1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f⦓&6&lＵＲＭＯＭ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&6&lＵＲＭＯＭ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%phantomprefix1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f⦓&6&lＵＲＭＯＭ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&6&lＵＲＭＯＭ&f⦔'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 2
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&bПрефикс &b&l#2 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&dＰＨＡＮＴＯＭＡＳ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim118%'
+    - ''
+    left_click_requirement:
+      requirements:
+        q:
+          type: has permission
+          permission: '%phantomprefix2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f⦓&dＰＨＡＮＴＯＭＡＳ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&dＰＨＡＮＴＯＭＡＳ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        q1:
+          type: has permission
+          permission: '%phantomprefix2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f⦓&dＰＨＡＮＴＯＭＡＳ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&dＰＨＡＮＴＯＭＡＳ&f⦔'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 3
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&bПрефикс &b&l#3 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&5&lᴘʜᴀɴᴛᴏᴍ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim119%'
+    - ''
+    left_click_requirement:
+      requirements:
+        w:
+          type: has permission
+          permission: '%phantomprefix3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f⦓&5&lᴘʜᴀɴᴛᴏᴍ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&5&lᴘʜᴀɴᴛᴏᴍ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        w1:
+          type: has permission
+          permission: '%phantomprefix3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f⦓&5&lᴘʜᴀɴᴛᴏᴍ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&5&lᴘʜᴀɴᴛᴏᴍ&f⦔'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 4
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&bПрефикс &b&l#4 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&c&lＯГЛЯＨИＣЬ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim120%'
+    - ''
+    left_click_requirement:
+      requirements:
+        r:
+          type: has permission
+          permission: '%phantomprefix4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f⦓&c&lＯГЛЯＨИＣЬ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&c&lＯГЛЯＨИＣЬ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        r1:
+          type: has permission
+          permission: '%phantomprefix4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f⦓&c&lＯГЛЯＨИＣЬ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&c&lＯГЛЯＨИＣЬ&f⦔'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 5
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&bПрефикс &b&l#5 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&6&lＢПＥＰＥД&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim121%'
+    - ''
+    left_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%phantomprefix5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f⦓&6&lＢПＥＰＥД&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&6&lＢПＥＰＥД&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        t1:
+          type: has permission
+          permission: '%phantomprefix5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f⦓&6&lＢПＥＰＥД&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&6&lＢПＥＰＥД&f⦔'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 6
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&bПрефикс &b&l#6 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&e&lＫＡＭＥＰＡ？&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim122%'
+    - ''
+    left_click_requirement:
+      requirements:
+        y:
+          type: has permission
+          permission: '%phantomprefix6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f⦓&e&lＫＡＭＥＰＡ？&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&e&lＫＡＭＥＰＡ？&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        y1:
+          type: has permission
+          permission: '%phantomprefix6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f⦓&e&lＫＡＭＥＰＡ？&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&e&lＫＡＭＥＰＡ？&f⦔'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 7
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&bПрефикс &b&l#7 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&cａＢＯＴиＨＥＴ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim123%'
+    - ''
+    left_click_requirement:
+      requirements:
+        u:
+          type: has permission
+          permission: '%phantomprefix7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f⦓&cａＢＯＴиＨＥＴ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&cａＢＯＴиＨＥＴ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        u1:
+          type: has permission
+          permission: '%phantomprefix7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f⦓&cａＢＯＴиＨＥＴ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&cａＢＯＴиＨＥＴ&f⦔'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 8
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&bПрефикс &b&l#8 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&d&kＰＨＡＮＴＯＭ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim124%'
+    - ''
+    left_click_requirement:
+      requirements:
+        i:
+          type: has permission
+          permission: '%phantomprefix8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f⦓&d&kＰＨＡＮＴＯＭ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&kＰＨＡＮＴＯＭ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        i1:
+          type: has permission
+          permission: '%phantomprefix8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f⦓&d&kＰＨＡＮＴＯＭ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&kＰＨＡＮＴＯＭ&f⦔'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 9
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&bПрефикс &b&l#9 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&b&lДＥЛИＣЬ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim125%'
+    - ''
+    left_click_requirement:
+      requirements:
+        o:
+          type: has permission
+          permission: '%phantomprefix9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f⦓&b&lДＥЛИＣЬ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&b&lДＥЛИＣЬ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        o1:
+          type: has permission
+          permission: '%phantomprefix9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f⦓&b&lДＥЛИＣЬ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&b&lДＥЛИＣЬ&f⦔'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 10
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&bПрефикс &b&l#10 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&d&l㇄ㄩ丂㠪尺&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim126%'
+    - ''
+    left_click_requirement:
+      requirements:
+        s:
+          type: has permission
+          permission: '%phantomprefix10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f⦓&d&l㇄ㄩ丂㠪尺&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&l㇄ㄩ丂㠪尺&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        s1:
+          type: has permission
+          permission: '%phantomprefix10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f⦓&d&l㇄ㄩ丂㠪尺&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&l㇄ㄩ丂㠪尺&f⦔'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 11
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&bПрефикс &b&l#11 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&7&lＰＡＣＣＫＡЖИ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim127%'
+    - ''
+    left_click_requirement:
+      requirements:
+        d:
+          type: has permission
+          permission: '%phantomprefix11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f⦓&7&lＰＡＣＣＫＡЖИ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&7&lＰＡＣＣＫＡЖИ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        d1:
+          type: has permission
+          permission: '%phantomprefix11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f⦓&7&lＰＡＣＣＫＡЖИ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&7&lＰＡＣＣＫＡЖИ&f⦔'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 12
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&bПрефикс &b&l#12 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&d&lʜʏᴘᴇʀ&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim128%'
+    - ''
+    left_click_requirement:
+      requirements:
+        f:
+          type: has permission
+          permission: '%phantomprefix12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f⦓&d&lʜʏᴘᴇʀ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&lʜʏᴘᴇʀ&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        f1:
+          type: has permission
+          permission: '%phantomprefix12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f⦓&d&lʜʏᴘᴇʀ&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&d&lʜʏᴘᴇʀ&f⦔'
+    - '[close]'
+  '13':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 13
+    update: true
+    slot: 24
+    priority: 0
+    display_name: '&bПрефикс &b&l#13 &7(PHANTOM#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f⦓&c&lВопросы?&f⦔'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    - ''
+    - '%javascript_anim129%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%phantomprefix13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f⦓&c&lВопросы?&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&c&lВопросы?&f⦔'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g1:
+          type: has permission
+          permission: '%phantomprefix13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Префикс доступен от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f⦓&c&lВопросы?&f⦔ "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f⦓&c&lВопросы?&f⦔'
+    - '[close]'
+  '14':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 49
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] groupprefix'
+    right_click_commands:
+    - '[openguimenu] groupprefix'

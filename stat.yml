@@ -1,0 +1,115 @@
+menu_title: '&8Статистика'
+register_command: true
+open_command: stat
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY1NjU4ZmM2N2FhNTNjNmIxMzMwZDI3OTBiMDgzMDE2Y2NhNGU3NzkxYTI0Y2ExNzg3ZmQ3MzA3YjUyZGRhMyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&bОсновная статистика'
+    lore:
+    - ''
+    - '&7Наиграно на сервере:'
+    - '&7- &f%statistic_hours_played% ч. %statistic_minutes_played% мин. %statistic_seconds_played% сек.'
+    - ''
+    - '&7Флюксы(Донат-валюта):'
+    - '&7- &fБаланс: &d%playerpoints_points%&f флюксов'
+    - '&7- &fНа счету было: &dнебыло&f флюксов'
+    - ''
+    - '&cВыбранный вами язык: %player_locale%'
+    - ''
+  '2':
+    material: bow
+    data: 0
+    amount: 1
+    update: false
+    slot: 12
+    priority: 0
+    display_name: '&bSkyPvP'
+    lore:
+    - ''
+    - '&7Убийств: &f%statistic_player_kills%'
+    - '&7Смертей: &f%statistic_deaths%'
+    - ''
+    - '&cЕсли статистика некорректная,'
+    - '&cто просим перезайти на режим'
+    - ''
+  '3':
+    material: iron_chestplate
+    data: 0
+    amount: 1
+    update: false
+    slot: 13
+    priority: 0
+    display_name: '&bSmasher'
+    lore:
+    - ''
+    - '&7Убийств: &f%statistic_player_kills%'
+    - '&7Смертей: &f%statistic_deaths%'
+    - '&7Уровень: &f%player_level%'
+    - '&7Монет: &f%vault_eco_balance%'
+    - ''
+    - '&cЕсли статистика некорректная,'
+    - '&cто просим перезайти на режим'
+    - ''
+  '4':
+    material: iron_sword
+    data: 0
+    amount: 1
+    update: false
+    slot: 14
+    priority: 0
+    display_name: '&bВыживание'
+    lore:
+    - ''
+    - '&7Убийств: &f%statistic_player_kills%'
+    - '&7Смертей: &f%statistic_deaths%'
+    - '&7Баланс: &f%vault_eco_balance%'
+    - ''
+    - '&7Клан: &c<insert_uralclans_placeholder>'
+    - '&7Пол: %marriage_gender%'
+    - '&7Статус: %marriage_is_married%'
+    - ''
+    - '&cЕсли статистика некорректная,'
+    - '&cто просим перезайти на режим'
+    - ''
+  '5':
+    material: gray_stained_glass_pane
+    data: 0
+    amount: 1
+    update: false
+    slots:
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    priority: 0
+    display_name: '&7Скоро'
+    lore:
+    - '&7Тут будет режим'
+  '6':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 40
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

@@ -1,0 +1,644 @@
+menu_title: '&8Префиксы ▸ DC Comics'
+register_command: true
+open_commnad: dcprefix
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&bПрефикс &b&l#1 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Batman&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim93%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%dc1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&0Batman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batman&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%dc1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&0Batman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batman&f]'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 2
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&bПрефикс &b&l#2 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&cSuperMan&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim94%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%dc2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&cSuperMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cSuperMan&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b1:
+          type: has permission
+          permission: '%dc2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&cSuperMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cSuperMan&f]'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 3
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&bПрефикс &b&l#3 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&fWonderWoman&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim95%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%dc3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&fWonderWoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fWonderWoman&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b1:
+          type: has permission
+          permission: '%dc3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&fWonderWoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fWonderWoman&f]'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 4
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&bПрефикс &b&l#4 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&5Thanos&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim96%'
+    - ''
+    left_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: '%dc4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&5Thanos&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Thanos&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        c1:
+          type: has permission
+          permission: '%dc4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&5Thanos&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Thanos&f]'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 5
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&bПрефикс &b&l#5 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&c&lFlash&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim97%'
+    - ''
+    left_click_requirement:
+      requirements:
+        q:
+          type: has permission
+          permission: '%dc5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&c&lFlash&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&c&lFlash&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        q1:
+          type: has permission
+          permission: '%dc5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&c&lFlash&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&c&lFlash&f]'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 6
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&bПрефикс &b&l#6 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&6Aquaman&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim98%'
+    - ''
+    left_click_requirement:
+      requirements:
+        w:
+          type: has permission
+          permission: '%dc6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&6Aquaman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6Aquaman&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        w1:
+          type: has permission
+          permission: '%dc6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&6Aquaman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6Aquaman&f]'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 7
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&bПрефикс &b&l#7 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&4Cyborg&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim99%'
+    - ''
+    left_click_requirement:
+      requirements:
+        y:
+          type: has permission
+          permission: '%dc7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&4Cyborg&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Cyborg&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        y1:
+          type: has permission
+          permission: '%dc7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&4Cyborg&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Cyborg&f]'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 8
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&bПрефикс &b&l#8 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&eAres&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim100%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%dc8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&eAres&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eAres&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g1:
+          type: has permission
+          permission: '%dc8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&eAres&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eAres&f]'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 9
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&bПрефикс &b&l#9 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Batgirl&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim101%'
+    - ''
+    left_click_requirement:
+      requirements:
+        h:
+          type: has permission
+          permission: '%dc9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&0Batgirl&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batgirl&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        h1:
+          type: has permission
+          permission: '%dc9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&0Batgirl&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batgirl&f]'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 10
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&bПрефикс &b&l#10 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Batwoman&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim102%'
+    - ''
+    left_click_requirement:
+      requirements:
+        j:
+          type: has permission
+          permission: '%dc10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&0Batwoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batwoman&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        j1:
+          type: has permission
+          permission: '%dc10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&0Batwoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Batwoman&f]'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 11
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&bПрефикс &b&l#11 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Adam&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim103%'
+    - ''
+    left_click_requirement:
+      requirements:
+        r:
+          type: has permission
+          permission: '%dc11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&0Adam&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Adam&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        r1:
+          type: has permission
+          permission: '%dc11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&0Adam&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Adam&f]'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 12
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&bПрефикс &b&l#12 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&0Catwoman&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim104%'
+    - ''
+    left_click_requirement:
+      requirements:
+        f:
+          type: has permission
+          permission: '%dc12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&0Catwoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Catwoman&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        f1:
+          type: has permission
+          permission: '%dc12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&0Catwoman&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&0Catwoman&f]'
+    - '[close]'
+  '13':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 13
+    update: true
+    slot: 24
+    priority: 0
+    display_name: '&bПрефикс &b&l#13 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&aCyclone&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim105%'
+    - ''
+    left_click_requirement:
+      requirements:
+        x:
+          type: has permission
+          permission: '%dc13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&aCyclone&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aCyclone&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        x1:
+          type: has permission
+          permission: '%dc13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&aCyclone&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aCyclone&f]'
+    - '[close]'
+  '14':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 14
+    update: true
+    slot: 25
+    priority: 0
+    display_name: '&bПрефикс &b&l#14 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&4Deadshot&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim106%'
+    - ''
+    left_click_requirement:
+      requirements:
+        o:
+          type: has permission
+          permission: '%dc14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&4Deadshot&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Deadshot&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        o1:
+          type: has permission
+          permission: '%dc14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&4Deadshot&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Deadshot&f]'
+    - '[close]'
+  '15':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 15
+    update: true
+    slot: 28
+    priority: 0
+    display_name: '&bПрефикс &b&l#15 &7(DC#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&6DrFate&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim107%'
+    - ''
+    left_click_requirement:
+      requirements:
+        m:
+          type: has permission
+          permission: '%dc15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 15 "&f[&6DrFate&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6DrFate&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        m1:
+          type: has permission
+          permission: '%dc15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 15 "&f[&6DrFate&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&6DrFate&f]'
+    - '[close]'
+  '16':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim111%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] tprefix'
+    right_click_commands:
+    - '[openguimenu] tprefix'

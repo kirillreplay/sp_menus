@@ -1,0 +1,475 @@
+menu_title: '&8Justice Caffee'
+register_command: true
+open_command: justice_cafe
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: bread
+    data: 0
+    amount: 64
+    update: true
+    slot: 10
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bХлеб'
+    lore:
+    - ''
+    - '&7Стоимость: &a3000⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim138%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 3000'
+    - '[console] give %player_name% bread 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 3000'
+    - '[console] give %player_name% bread 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '2':
+    material: cookie
+    data: 0
+    amount: 64
+    update: true
+    slot: 11
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bПеченье'
+    lore:
+    - ''
+    - '&7Стоимость: &a4400⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim139%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 4400
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 4400'
+    - '[console] give %player_name% cookie 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 4400
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 4400'
+    - '[console] give %player_name% cookie 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '3':
+    material: melon_slice
+    data: 0
+    amount: 64
+    update: true
+    slot: 12
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bАрбуз'
+    lore:
+    - ''
+    - '&7Стоимость: &a500⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim140%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 500'
+    - '[console] give %player_name% melon_slice 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 500'
+    - '[console] give %player_name% melon_slice 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '4':
+    material: carrot
+    data: 0
+    amount: 64
+    update: true
+    slot: 13
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bМорковь'
+    lore:
+    - ''
+    - '&7Стоимость: &a1640⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim141%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1640
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 1640'
+    - '[console] give %player_name% carrot 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1640
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 1640'
+    - '[console] give %player_name% carrot 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '5':
+    material: baked_potato
+    data: 0
+    amount: 64
+    update: true
+    slot: 14
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bКартофель'
+    lore:
+    - ''
+    - '&7Стоимость: &a2600⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim142%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2600
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 2600'
+    - '[console] give %player_name% baked_potato 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2600
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 2600'
+    - '[console] give %player_name% baked_potato 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '6':
+    material: poisonous_potato
+    data: 0
+    amount: 64
+    update: true
+    slot: 15
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bЯдовитый картофель'
+    lore:
+    - ''
+    - '&7Стоимость: &a3500⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim143%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% poisonous_potato 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% poisonous_potato 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '7':
+    material: beetroot
+    data: 0
+    amount: 64
+    update: true
+    slot: 16
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bСвёкла'
+    lore:
+    - ''
+    - '&7Стоимость: &a3500⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim144%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% beetroot 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% beetroot 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '8':
+    material: chorus_fruit
+    data: 0
+    amount: 64
+    update: true
+    slot: 19
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bПлод хоруса'
+    lore:
+    - ''
+    - '&7Стоимость: &a2290⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim145%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2290
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 2290'
+    - '[console] give %player_name% chorus_fruit 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2290
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 2290'
+    - '[console] give %player_name% chorus_fruit 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '9':
+    material: beef
+    data: 0
+    amount: 64
+    update: true
+    slot: 20
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bСырая говядина'
+    lore:
+    - ''
+    - '&7Стоимость: &a2290⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim146%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2290
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 2290'
+    - '[console] give %player_name% beef 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2290
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 2290'
+    - '[console] give %player_name% beef 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '10':
+    material: porkchop
+    data: 0
+    amount: 64
+    update: true
+    slot: 21
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bСырая свинина'
+    lore:
+    - ''
+    - '&7Стоимость: &a3500⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim147%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% porkchop 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% porkchop 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '11':
+    material: mutton
+    data: 0
+    amount: 64
+    update: true
+    slot: 22
+    priority: 0
+    enchantments:
+    - LURE;1
+    display_name: '&bСырая баранина'
+    lore:
+    - ''
+    - '&7Стоимость: &a3500⛀'
+    - '&7Ваш баланс: &f%vault_eco_balance%⛀'
+    - ''
+    - '%javascript_anim148%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% mutton 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 3500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 3500'
+    - '[console] give %player_name% mutton 64'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет!'
+    - '[close]'
+  '12':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 40
+    update: true
+    priority: 0
+    display_name: '&cЗакрыть'
+    lore:
+    - ''
+    - '&7Быстрый способ выйти из меню'
+    - ''
+    - '%javascript_anim149%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

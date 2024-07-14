@@ -1,0 +1,24 @@
+menu_title: '&8Данные сервера'
+register_command: true
+open_command: bukkitcore
+update_interval: 1
+size: 45
+items:
+  '1':
+    material: barrier
+    data: 0
+    amount: 1
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&cИнформация'
+    lore:
+    - ''
+    - '&2>%javascript_anim20%'
+    - ''
+    - ' &7Версия конфигов: &f1.0.0'
+    - ' &7Сделано на &fDeluxeMenus'
+    - ' &7Author - §x§E§4§3§A§9§6b§x§E§D§2§7§9§7a§x§F§6§1§3§9§8d§x§F§F§0§0§9§9i§x§D§2§1§1§9§Ak§x§A§6§2§2§9§Cr§x§7§9§3§3§9§De§x§4§C§4§4§9§Es§x§3§3§2§D§B§Eu§x§1§A§1§7§D§Fm§x§0§1§0§0§F§Fe'
+    - ''
+    - ' &dникита гуд гаме соси хуй❤'
+    - ''

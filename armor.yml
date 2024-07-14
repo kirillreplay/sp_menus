@@ -1,0 +1,663 @@
+menu_title: '&8Броня Силача'
+register_command: true
+open_command: armor
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slots:
+    - 0-8
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '2':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slots:
+    - 45-53
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3_1%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '3':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 9
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3_2%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '4':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 9
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim44%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '5':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 18
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim154%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '6':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 27
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim157%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '7':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 36
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim158%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '8':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 17
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim159%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '9':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 26
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim160%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '10':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 35
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim161%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '11':
+    material: red_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slot: 44
+    priority: 0
+    display_name: '&c&lSPOTYMC &8|&f Броня силача'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim162%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &c↪&c&m                                                    &c↩'
+    - '[message]                                                     '
+  '12':
+    material: diamond_helmet
+    data: 0
+    amount: 1
+    update: true
+    slot: 12
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Шлем силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Защита IV'
+    - '&7Взрывоустойчивость IV'
+    - '&7Защита от снарядов IV'
+    - '&7Прочность III'
+    - ''
+    - ' &8› &fДаёт вечный эффект&c Насыщение II'
+    - ' &8› &fДаёт вечный эффект&c Ночное зрение II'
+    - ' &8› &fДаёт вечный эффект&c Водное дыхание II'
+    - ''
+    - '&fСтоимость: &a1000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim163%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_helmet'
+    - '[takemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_helmet'
+    - '[takemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'
+  '13':
+    material: diamond_chestplate
+    data: 0
+    amount: 1
+    update: true
+    slot: 21
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Нагрудник силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Защита IV'
+    - '&7Взрывоустойчивость IV'
+    - '&7Защита от снарядов IV'
+    - '&7Прочность III'
+    - ''
+    - ' &8› &fДаёт вечный эффект&c Сопротивление III'
+    - ' &8› &fДаёт вечный эффект&c Регенерация II'
+    - ' &8› &fДаёт вечный эффект&c Огнестойкость III'
+    - ' &8› &fДает дополнительные&4 +2❤'
+    - ''
+    - '&fСтоимость: &a5000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim164%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has money
+          amount: 5000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_chestplate'
+    - '[takemoney] 5000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a5000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b1:
+          type: has money
+          amount: 5000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_chestplate'
+    - '[takemoney] 5000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a5000000000 монет'
+    - '[close]'
+  '14':
+    material: diamond_leggings
+    data: 0
+    amount: 1
+    update: true
+    slot: 30
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Поножи силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Защита IV'
+    - '&7Взрывоустойчивость IV'
+    - '&7Защита от снарядов IV'
+    - '&7Прочность III'
+    - '&7Шипы III'
+    - ''
+    - ' &8› &fДаёт вечный эффект&c Скорость II'
+    - ''
+    - '&fСтоимость: &a2000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim165%'
+    - ''
+    left_click_requirement:
+      requirements:
+        с:
+          type: has money
+          amount: 2000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_leggings'
+    - '[takemoney] 2000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a2000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        с1:
+          type: has money
+          amount: 2000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_leggings'
+    - '[takemoney] 2000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a2000000000 монет'
+    - '[close]'
+  '15':
+    material: diamond_boots
+    data: 0
+    amount: 1
+    update: true
+    slot: 39
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Ботинки силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Защита IV'
+    - '&7Взрывоустойчивость IV'
+    - '&7Защита от снарядов IV'
+    - '&7Прочность III'
+    - ''
+    - ' &8› &fДаёт вечный эффект&c Прыгучесть II'
+    - ''
+    - '&fСтоимость: &a1000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim166%'
+    - ''
+    left_click_requirement:
+      requirements:
+        d:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_boots'
+    - '[takemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        d1:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_boots'
+    - '[takemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'
+  '16':
+    material: diamond_sword
+    data: 0
+    amount: 1
+    update: true
+    slot: 23
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Меч силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Острота V'
+    - '&7Взрывоустойчивость IV'
+    - '&7Защита от снарядов IV'
+    - '&7Добыча III'
+    - '&7Прочность III'
+    - ''
+    - ' &8› &fДаёт вечный эффект&c Сила II'
+    - ''
+    - '&fСтоимость: &a4000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim167%'
+    - ''
+    left_click_requirement:
+      requirements:
+        e:
+          type: has money
+          amount: 4000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_sword'
+    - '[takemoney] 4000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a4000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        e1:
+          type: has money
+          amount: 4000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_sword'
+    - '[takemoney] 4000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a4000000000 монет'
+    - '[close]'
+  '17':
+    material: shield
+    data: 0
+    amount: 1
+    update: true
+    slot: 32
+    enchantments:
+    - LURE;1
+    priority: 0
+    display_name: '&c&l&k|&4&l&k|&c&l&k|&c ☼ Щит силача ☼ &c&l&k|&4&l&k|&c&l&k|'
+    lore:
+    - ''
+    - '&7Шипы III'
+    - ''
+    - ' &8› &fДает дополнительные&4 +3❤'
+    - ''
+    - '&fСтоимость: &a1000000000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim168%'
+    - ''
+    left_click_requirement:
+      requirements:
+        e:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[console] supergive legacy_shield'
+    - '[takemoney] 4000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        e1:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[console] supergive legacy_shield'
+    - '[takemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили предмет за &a1000000000 монет'
+    - '[close]'

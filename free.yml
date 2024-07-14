@@ -1,0 +1,1950 @@
+menu_title: '&8Взлом доната /free'
+register_command: true
+open_command: free
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 0
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim260% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim261%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 1
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim262% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim263%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 2
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim264% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim265%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Создатель&f]'
+    - '[close]'
+  '4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 3
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim266% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim267%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+  '5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 4
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim268% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim269%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '6':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 5
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim270% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim271%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+  '7':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 6
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim272% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim273%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '8':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 7
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim274% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim275%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '9':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 8
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim276% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim277%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '10':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 9
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim278% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim279%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+  '11':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim280% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim281%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+  '12':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim282% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim283%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '13':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim284% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim285%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '14':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim286% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim287%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+  '15':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim288% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim289%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+  '16':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim290% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim291%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '17':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim292% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim293%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+  '18':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 17
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim294% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim295%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+  '19':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 18
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim296% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim297%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+  '20':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim298% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim299%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '21':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim300% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim301%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '22':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim302% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim303%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+  '23':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim304% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim305%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+  '24':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim306% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim307%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+  '25':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 24
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim308% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim309%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+  '26':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 25
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim310% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim311%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '27':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 26
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim312% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim313%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+  '28':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 27
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim314% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim315%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '29':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 28
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim316% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim317%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '30':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 29
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim318% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim319%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '31':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 30
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim320% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim321%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+  '32':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 31
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim322% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim323%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+  '33':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 32
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim324% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim325%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+  '34':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 33
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim326% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim327%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '35':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 34
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim328% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim329%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+  '36':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 35
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim330% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim331%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '37':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 36
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim332% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim333%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cТитан&f]'
+    - '[close]'
+  '38':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 37
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim334% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim335%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+  '39':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 38
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim336% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim337%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '40':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 39
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim338% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim339%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '41':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 40
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim340% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim341%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '42':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 41
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim342% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim343%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+  '43':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 42
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim344% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim345%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&eКреатив&f]'
+    - '[close]'
+  '44':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 43
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim346% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim347%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '45':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 44
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim348% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim349%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&cАдмин&f]'
+    - '[close]'
+  '46':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 45
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim350% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim351%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '47':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 46
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim352% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim353%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '48':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 47
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim354% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim355%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Король&f]'
+    - '[close]'
+  '49':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 48
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim356% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim357%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&aВип&f]'
+    - '[close]'
+  '50':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim358% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim359%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&6Элита&f]'
+    - '[close]'
+  '51':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 50
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim360% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim361%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Босс&f]'
+    - '[close]'
+  '52':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 51
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim362% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim363%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&5Создатель&f]'
+    - '[close]'
+  '53':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 52
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim364% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim365%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&3Премиум&f]'
+    - '[close]'
+  '54':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg4MTQ5ZTU2Y2RlMDJlZWU2MjA5ODI4ODRiODkzNjM0NzU2YmU5MTQxZjJlMjc3N2I1MWNiMGE2NmMzMWRjZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 53
+    priority: 0
+    display_name: '&dБесплатный донат /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Испытайте удачу попробовав'
+    - '&7взломать привилегию!'
+    - ''
+    - ' %javascript_anim366% &fЧто может выпасть: '
+    - '     &f[&aВип&f]'
+    - '     &f[&3Премиум&f]'
+    - '     &f[&eКреатив&f]'
+    - '     &f[&cАдмин&f]'
+    - '     &f[&6Элита&f]'
+    - '     &f[&9Гл.Админ&f]'
+    - '     &f[&6Король&f]'
+    - '     &f[&9Босс&f]'
+    - '     &f[&5Создатель&f]'
+    - '     &f[&cТитан&f]'
+    - ''
+    - '%javascript_anim367%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f &aПоздравляем! &fВы выиграли привилегию - &f[&9Гл.Админ&f]'
+    - '[close]'

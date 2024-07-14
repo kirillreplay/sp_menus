@@ -1,0 +1,180 @@
+menu_title: '&8Меню ▸ Топы'
+register_command: true
+open_command: tops
+size: 45
+update_interval: 1
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZTQ2YWZiYjc5ZDYwMTYwM2QxMGJkZWM2NTUxMTkwNzllOTUyY2YxZTRjZDBjNjNlMDA0NTRlNWU4OWU5MCJ9fX0=
+    data: 0
+    amount: 1
+    update: false
+    slot: 10
+    priority: 0
+    display_name: '&bТоп по времени'
+    lore:
+    - ''
+    - '&7Топ игроков по наигранному времени:'
+    - ''
+    - '&e[#1]&f al1wqsun_ - &7884 &fчаса. '
+    - '&e[#2]&f MrTeiler - &7863 &fчаса. '
+    - '&e[#3]&f Cesar_Hugh - &7841 &fчас. '
+    - '&e[#4]&f &mNikita_0504_GG&r &f- &7653 &fчаса. '
+    - '&e[#5]&f 234N34ot234 - &7631 &fчас. '
+    - '&e[#6]&f Namiko - &7582 &fчаса. '
+    - '&e[#7]&f Xo4y_CBepXy_ - &7542 &fчаса. '
+    - '&e[#8]&f Neros - &7492 &fчасов. '
+    - '&e[#9]&f BadikPlay - &7428 &fчасов. '
+    - '&e[#9]&f BadikPlay - &7405 &fчасов. '
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk4ODVlODIzZmYxNTkyNjdjYmU4MDkwOTNlMzNhNDc2ZTI3NDliNjU5OGNhNGEyYTgxZWU2OTczODAzZmI2NiJ9fX0=
+    data: 0
+    amount: 1
+    update: false
+    slot: 11
+    priority: 0
+    display_name: '&bТоп по флюксам'
+    lore:
+    - ''
+    - '&7Топ игроков по флюксам:'
+    - ''
+    - '&e[#1]&f Duaktro - &71000000 &fфлюксов'
+    - '&e[#2]&f _KrIstalik05_ - &7220999 &fфлюксов'
+    - '&e[#3]&f Nekopara - &7143395 &fфлюксов'
+    - '&e[#4]&f BadikPlay - &7106023 &fфлюксов'
+    - '&e[#5]&f XBoy - &7102671 &fфлюксов'
+    - '&e[#6]&f Cesar_Hugh - &764504 &fфлюксов'
+    - '&e[#7]&f &mNikita_0504_GG&r &f- &752517 &fфлюксов'
+    - '&e[#8]&f PlayBoy - &748551 &fфлюксов'
+    - '&e[#9]&f V1ksY_ - &732500 &fфлюксов'
+    - '&e[#10]&f Mr_den_22 - &732245 &fфлюксов'
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4OWNmY2JhY2JlNTk4ZThhMWNkODYxMGI0OWZjYjYyNjQ0ZThjYmE5ZDQ5MTFkMTIxMTM0NTA2ZDhlYTFiNyJ9fX0=
+    data: 0
+    amount: 1
+    update: false
+    slot: 12
+    priority: 0
+    display_name: '&bТоп по донату'
+    lore:
+    - ''
+    - '&7Топ игроков по донату:'
+    - ''
+    - '&e[#1]&f Nekopara - &753000 &fруб.'
+    - '&e[#2]&f Robot_toster - &72664 &fруб.'
+    - '&e[#3]&f DarkMoon1 - &72195 &fруб.'
+    - '&e[#4]&f Themarias - &72195 &fруб.'
+    - '&e[#5]&f bicco - &72037 &fруб.'
+    - '&e[#6]&f IIIOpyt - &71973 &fруб.'
+    - '&e[#7]&f Good_STALKER - &71683 &fруб.'
+    - '&e[#8]&f Duaktro - &71628 &fруб.'
+    - '&e[#9]&f szestki_tyan - &71598 &fруб.'
+    - '&e[#10]&f _MrSaha_ - &71547 &fруб.'
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '4':
+    material: paper
+    data: 0
+    amount: 1
+    update: false
+    slot: 14
+    priority: 0
+    display_name: '&bТоп по балансу'
+    lore:
+    - ''
+    - '&7Топ игроков по балансу:'
+    - ''
+    - '&e[#1]&f Amogusss_ - &71000000000000000000 &f$'
+    - '&e[#2]&f &mNikita_0504_GG&r &f- &71000000000000000000 &f$'
+    - '&e[#3]&f MrTeiler - &71000000000000000000 &f$'
+    - '&e[#4]&f fsfscfaa - &7999999999992999936 &f$'
+    - '&e[#5]&f SENPAI229727 - &7999999500000000000 &f$'
+    - '&e[#6]&f koltak - &7600099942649600000 &f$'
+    - '&e[#7]&f nekavezo - &7525252525252525248 &f$'
+    - '&e[#8]&f dp1337 - &799999990010000000 &f$'
+    - '&e[#9]&f money_rrain - &710103130009356668 &f$'
+    - '&e[#10]&f MRBEEST - &79999963082800100 &f$'
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '5':
+    material: iron_sword
+    data: 0
+    amount: 1
+    update: false
+    slot: 15
+    priority: 0
+    display_name: '&bТоп по убийствам'
+    lore:
+    - ''
+    - '&7Топ игроков по убийствам:'
+    - ''
+    - '&e[#1]&f Grozlay - &7197 &fубийств'
+    - '&e[#2]&f YukiMonster - &7143 &fубийств'
+    - '&e[#3]&f Hyba_Lyba4 - &7122 &fубийств'
+    - '&e[#4]&f 234N34ot2133 - &7107 &fубийств'
+    - '&e[#5]&f sals - &778 &fубийств'
+    - '&e[#6]&f GulIHcuLS - &776 &fубийств'
+    - '&e[#7]&f xrayforever - &774 &fубийств'
+    - '&e[#8]&f Derevo555666 - &773 &fубийств'
+    - '&e[#9]&f FLauncher_78328 - &766 &fубийств'
+    - '&e[#10]&f _BusTI_ - &763 &fубийств'
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '6':
+    material: end_crystal
+    data: 0
+    amount: 1
+    update: false
+    slot: 16
+    priority: 0
+    display_name: '&bТоп по смертям'
+    lore:
+    - ''
+    - '&7Топ игроков по смертям:'
+    - ''
+    - '&e[#1]&f derevopiski - &768 &fсмертей'
+    - '&e[#2]&f Naprikole - &766 &fсмертей'
+    - '&e[#3]&f Hyba_Lyba4 - &749 &fсмертей'
+    - '&e[#4]&f BadikPlay - &748 &fсмертей'
+    - '&e[#5]&f YTMahar861 - &740 &fсмертей'
+    - '&e[#6]&f szestki_tyan - &738 &fсмертей'
+    - '&e[#7]&f MrEgor332 - &738 &fсмертей'
+    - '&e[#8]&f geamer0_0 - &734 &fсмертей'
+    - '&e[#9]&f LimeMinecraft - &732 &fсмертей'
+    - '&e[#10]&f sasden - &728 &fсмертей'
+    - ''
+    - '&7До обновления: &f9999 часов.'
+    - '&7Ваша статистика: &a/stats'
+    - ''
+  '7':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 31
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

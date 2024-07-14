@@ -1,0 +1,24 @@
+menu_title: '&8Помощь'
+open_command:
+- helpserver
+- ?server
+register_command: true
+size: 45
+items:
+  '1':
+    material: barrier
+    data: 0
+    amount: 1
+    slot: 22
+    priority: 0
+    display_name: '&cИнформация'
+    lore:
+    - ''
+    - '&7Администрация ещё не написала'
+    - '&7руководство для этого режима :c'
+    - '&8У нас лапки...'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

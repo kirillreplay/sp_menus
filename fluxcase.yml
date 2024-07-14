@@ -1,0 +1,636 @@
+menu_title: '&8&l⩖ &8Магазин флюксов (other)'
+register_command: false
+open_command: fluxcase
+update_interval: 1
+size: 45
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY5YmJkMzM3ZDExMjA2ODU4ZDg4ZWU0MTFkMzRjMjZjYTI0NjllZjE3YWJhZGY0ZTA3NDRiMmU4MDFmOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 10
+    display_name: '&d&l⬡ &dМагазин флюксов'
+    lore:
+    - ''
+    - '&7Флюксы - это донатная валюта,'
+    - '&7которая позволяет купить разные'
+    - '&7возможности. Распростроняется'
+    - '&7на все режимы!'
+    - ''
+    - '&7-&f Баланс: &d%playerpoints_points%&f флюксов'
+    - '&7-&f На счету было: &d-1&f флюксов'
+    - ''
+    - '%javascript_anim198%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] fluxshop'
+    right_click_commands:
+    - '[openguimenu] fluxshop'
+  '2':
+    material: emerald
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 19
+    display_name: '&bПокупка привилегии'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка привилегии за флюксы'
+    - ''
+    - '%javascript_anim199%'
+    - ''
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyMjM5MWUzNWEzZTViY2VlODlkYjMxMmU4NzRmZGM5ZDllN2E2MzUxMzE0YjgyYmRhOTdmYmQyYmU4N2ViOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 28
+    display_name: '&bПокупка кейсов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка кейсов за флюксы'
+    - ''
+    - '%javascript_anim177%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] fluxcase'
+    right_click_commands:
+    - '[openguimenu] fluxcase'
+  '16':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 0
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim197%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '17':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 2
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim43%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '18':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 11
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim2%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '19':
+    material: purple_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 29
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim4%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '20':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 20
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim5%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '21':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 38
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim162%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '22':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 47
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim44%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '23':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 9
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim192%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '24':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 18
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim193%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '25':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 27
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim194%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '26':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 36
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim195%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '27':
+    material: magenta_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    priority: 0
+    slot: 45
+    display_name: '&d&lSPOTYMC &8|&f Магазин флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&d&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim196%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &d&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &d&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                                    &d↩'
+    - '[message]                                                     '
+  '4':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyMjM5MWUzNWEzZTViY2VlODlkYjMxMmU4NzRmZGM5ZDllN2E2MzUxMzE0YjgyYmRhOTdmYmQyYmU4N2ViOCJ9fX0=
+    data: 0
+    amount: 1
+    slot: 13
+    update: true
+    priority: 0
+    display_name: '&b1 донат ключ &8- &d375&f флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Привилегия сохраняется навсегда!'
+    - ''
+    - ' &d➥&f Цена привилегии: &d375&f флюксов'
+    - ' &d➥&f Сайт для покупок &a&lshop.spotymc.ru'
+    - ''
+    - '&fБаланс: &d%playerpoints_points%&f флюксов'
+    - ''
+    - '%javascript_anim179%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 375
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    left_click_commands:
+    - '[console] cases give %player_name% donatecase 1'
+    - '[takemoney] 375'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b1 донат ключ&f за &d375&f флюксов'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 375
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    right_click_commands:
+    - '[console] cases give %player_name% donatecase 1'
+    - '[takemoney] 375'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b1 донат ключ&f за &d375&f флюксов'
+    - '[close]'
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyMjM5MWUzNWEzZTViY2VlODlkYjMxMmU4NzRmZGM5ZDllN2E2MzUxMzE0YjgyYmRhOTdmYmQyYmU4N2ViOCJ9fX0=
+    data: 0
+    amount: 10
+    slot: 14
+    update: true
+    priority: 0
+    display_name: '&b10 донат ключей &8- &d1,000&f флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Привилегия сохраняется навсегда!'
+    - ''
+    - ' &d➥&f Цена привилегии: &d1,000&f флюксов'
+    - ' &d➥&f Сайт для покупок &a&lshop.spotymc.ru'
+    - ''
+    - '&fБаланс: &d%playerpoints_points%&f флюксов'
+    - ''
+    - '%javascript_anim180%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    left_click_commands:
+    - '[console] cases give %player_name% donatecase 10'
+    - '[takemoney] 1000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b10 донат ключей&f за &d1000&f флюксов'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    right_click_commands:
+    - '[console] cases give %player_name% donatecase 10'
+    - '[takemoney] 1000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b10 донат ключей&f за &d1000&f флюксов'
+    - '[close]'
+  '6':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyMjM5MWUzNWEzZTViY2VlODlkYjMxMmU4NzRmZGM5ZDllN2E2MzUxMzE0YjgyYmRhOTdmYmQyYmU4N2ViOCJ9fX0=
+    data: 0
+    amount: 50
+    slot: 15
+    update: true
+    priority: 0
+    display_name: '&b50 донат ключей &8- &d2,500&f флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Привилегия сохраняется навсегда!'
+    - ''
+    - ' &d➥&f Цена привилегии: &d2,500&f флюксов'
+    - ' &d➥&f Сайт для покупок &a&lshop.spotymc.ru'
+    - ''
+    - '&fБаланс: &d%playerpoints_points%&f флюксов'
+    - ''
+    - '%javascript_anim181%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    left_click_commands:
+    - '[console] cases give %player_name% donatecase 50'
+    - '[takemoney] 2500'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b50 донат ключей&f за &d2500&f флюксов'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 2500
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    right_click_commands:
+    - '[console] cases give %player_name% donatecase 50'
+    - '[takemoney] 2500'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &b50 донат ключей&f за &d2500&f флюксов'
+    - '[close]'
+  '7':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgwNGQzYzcyYWZhNGM2YjFlOGE4MWY2NTNkYjUxYjYxMDAwODhkZmNhYzkyM2YwNmFiMTViY2Q2ZTVjMDQ3NiJ9fX0=
+    data: 0
+    amount: 1
+    slot: 22
+    update: true
+    priority: 0
+    display_name: '&bСнять мут &8- &d300&f флюксов'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Привилегия сохраняется навсегда!'
+    - ''
+    - ' &d➥&f Цена привилегии: &d300&f флюксов'
+    - ' &d➥&f Сайт для покупок &a&lshop.spotymc.ru'
+    - ''
+    - '&fБаланс: &d%playerpoints_points%&f флюксов'
+    - ''
+    - '%javascript_anim182%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 300
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    left_click_commands:
+    - '[console] unmute %player_name%'
+    - '[takemoney] 2500'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &cразмут&f за &d300&f флюксов'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 300
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f флюксов, вы можете приобрести их на сайте &a&lshop.spotymc.ru'
+    right_click_commands:
+    - '[console] unmute %player_name%'
+    - '[takemoney] 2500'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили &cразмут&f за &d300&f флюксов'
+    - '[close]'

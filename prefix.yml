@@ -1,0 +1,258 @@
+menu_title: '&8Кастомизация ▸ Префиксы'
+register_command: true
+open_command:
+- prefix
+- history
+size: 54
+update_inteval: 1
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRmOTBjN2JkNjBiZmQwZGZjMzE4MDhkMDQ4NGQ4YzJkYjk5NTlmNjhkZjkxZmJmMjk0MjNhM2RhNjI0MjlhNiJ9fX0=
+    data: 0
+    amount: 1
+    slot: 16
+    update: true
+    priority: 0
+    display_name: '&aПрефиксы от сервера'
+    lore:
+    - ''
+    - '&7В разработке...'
+    - ''
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4M2FhZGEwYWFlZjYwZDkxNTY5ZGI5ZjBmNWY3YWNkZTI4NmMwNDg5NzFjY2Q3YjNjMzY2NTg3NTkzOWY3YyJ9fX0=
+    data: 0
+    amount: 1
+    slot: 13
+    update: true
+    priority: 0
+    display_name: '&6Наборы префиксов'
+    lore:
+    - '&6для привилегий'
+    - ''
+    - '&7Список префиксов которые'
+    - '&7мы создали специально'
+    - '&7для выбранных привилегий'
+    - ''
+    - '%javascript_anim82%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] groupprefix'
+    right_click_commands:
+    - '[openguimenu] groupprefix'
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1YTdjNzI4NGRlNDk1NjhiNTE5NWRmOWQ0YTUwYzM3M2I3YWUyZmFiNGI1ZGVjMjg1M2M1ZDQ0ODdjNiJ9fX0=
+    data: 0
+    amount: 1
+    slot: 10
+    update: true
+    priority: 0
+    display_name: '&cТематические префиксы'
+    lore:
+    - ''
+    - '&7Список префиксов которые'
+    - '&7созданы в рамках одной темы'
+    - ''
+    - '%javascript_anim83%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] tprefix'
+    right_click_commands:
+    - '[openguimenu] tprefix'
+  '4':
+    material: flower_banner_pattern
+    data: 0
+    amount: 1
+    slot: 29
+    update: true
+    priority: 0
+    display_name: '&cНет истории префиксов...'
+    lore:
+    - ''
+    - '&7Система последних использованных'
+    - '&7префиксов позволяет сохранять'
+    - '&75 последних ваших префиксов!'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔'
+    - ''
+    - '%javascript_anim84%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[close]'
+  '5':
+    material: flower_banner_pattern
+    data: 0
+    amount: 2
+    slot: 30
+    update: true
+    priority: 0
+    display_name: '&cНет истории префиксов...'
+    lore:
+    - ''
+    - '&7Система последних использованных'
+    - '&7префиксов позволяет сохранять'
+    - '&75 последних ваших префиксов!'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔'
+    - ''
+    - '%javascript_anim85%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[close]'
+  '6':
+    material: flower_banner_pattern
+    data: 0
+    amount: 3
+    slot: 31
+    update: true
+    priority: 0
+    display_name: '&cНет истории префиксов...'
+    lore:
+    - ''
+    - '&7Система последних использованных'
+    - '&7префиксов позволяет сохранять'
+    - '&75 последних ваших префиксов!'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔'
+    - ''
+    - '%javascript_anim86%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: flower_banner_pattern
+    data: 0
+    amount: 4
+    slot: 32
+    update: true
+    priority: 0
+    display_name: '&cНет истории префиксов...'
+    lore:
+    - ''
+    - '&7Система последних использованных'
+    - '&7префиксов позволяет сохранять'
+    - '&75 последних ваших префиксов!'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔'
+    - ''
+    - '%javascript_anim87%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[close]'
+    right_click_requirementss:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[close]'
+  '8':
+    material: flower_banner_pattern
+    data: 0
+    amount: 5
+    slot: 33
+    update: true
+    priority: 0
+    display_name: '&cНет истории префиксов...'
+    lore:
+    - ''
+    - '&7Система последних использованных'
+    - '&7префиксов позволяет сохранять'
+    - '&75 последних ваших префиксов!'
+    - ''
+    - ' &fДоступ от привилегии: &f⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔'
+    - ''
+    - '%javascript_anim88%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%thunderhistprefix.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[close]'
+  '9':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 49
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] custom'
+    right_click_commands:
+    - '[openguimenu] custom'

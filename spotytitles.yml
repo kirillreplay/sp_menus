@@ -1,0 +1,336 @@
+menu_title: '&8Титулы ▸ SpotyMC#1'
+register_command: true
+open_command: spotytitles
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&aТитул &l#1 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд'
+    - ''
+    - '%javascript_anim21%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 0 " §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 0 " §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§5§7§5§7Н§x§F§A§5§1§5§Eа§x§F§5§4§A§6§5с§x§E§F§4§4§6§Cт§x§E§A§3§D§7§3о§x§E§5§3§7§7§Aя§x§E§0§3§0§8§1щ§x§D§A§2§A§8§8и§x§D§5§2§3§8§Fй §x§C§B§1§6§9§Dо§x§C§5§1§0§A§4л§x§C§0§0§9§A§Bд'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 2
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&aТитул &l#2 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр'
+    - ''
+    - '%javascript_anim21_1%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 1 " §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 1 " §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§5§A§F§F§0§0Л§x§5§5§F§E§0§2ю§x§5§0§F§C§0§4б§x§4§B§F§B§0§6и§x§4§5§F§9§0§8м§x§4§0§F§8§0§Aы§x§3§B§F§6§0§Cй §x§3§1§F§3§1§1с§x§2§C§F§2§1§3е§x§2§6§F§0§1§5р§x§2§1§E§F§1§7в§x§1§C§E§D§1§9е§x§1§7§E§C§1§Bр'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 3
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&aТитул &l#3 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе'
+    - ''
+    - '%javascript_anim21_2%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 2 " §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 2 " §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§5§7§5§71§x§F§F§5§E§5§50§x§F§F§6§4§5§3.§x§F§F§6§B§5§11 §x§F§F§7§8§4§Cп§x§F§F§7§E§4§Aо §x§F§F§8§B§4§6г§x§F§F§9§2§4§4о§x§F§F§9§8§4§1л§x§F§F§9§F§3§Fо§x§F§F§A§5§3§Dв§x§F§F§A§C§3§Bе'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 4
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&aТитул &l#4 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?'
+    - ''
+    - '%javascript_anim21_3%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 3 " §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 3 " §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§E§D§0§0§0§0Г§x§E§E§0§2§1§0д§x§E§E§0§3§2§0е §x§F§0§0§6§4§0б§x§F§1§0§8§5§0л§x§F§1§0§9§6§0и§x§F§2§0§B§7§0н §x§F§4§0§E§9§1о§x§F§4§0§F§A§1н§x§F§5§1§1§B§1л§x§F§6§1§2§C§1а§x§F§7§1§4§D§1й§x§F§7§1§5§E§1н§x§F§8§1§7§F§1?'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 5
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&aТитул &l#5 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл'
+    - ''
+    - '%javascript_anim21_4%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 4 " §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 4 " §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§0§0§A§4§E§DП§x§0§A§A§8§E§Cо§x§1§4§A§C§E§Bс§x§1§E§A§F§E§Bм§x§2§7§B§3§E§Aо§x§3§1§B§7§E§9т§x§3§B§B§B§E§8р§x§4§5§B§F§E§7и §x§5§9§C§6§E§6н§x§6§2§C§A§E§5а §x§7§6§D§2§E§4д§x§8§0§D§5§E§3л§x§8§A§D§9§E§2и§x§9§4§D§D§E§1н§x§9§D§E§1§E§0н§x§A§7§E§4§E§0ы§x§B§1§E§8§D§Fй §x§C§5§F§0§D§Dт§x§C§F§F§4§D§Cи§x§D§8§F§7§D§Cт§x§E§2§F§B§D§Bу§x§E§C§F§F§D§Aл'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 6
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&aТитул &l#6 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0'
+    - ''
+    - '%javascript_anim21_5%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 5 " §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§D§A§E§D§0§0В§x§D§8§E§E§0§5е§x§D§5§E§F§0§Bр§x§D§3§F§0§1§0н§x§D§0§F§1§1§5и§x§C§E§F§2§1§Aт§x§C§B§F§3§2§0е §x§C§6§F§5§2§Aм§x§C§4§F§6§3§0е§x§C§2§F§7§3§5н§x§B§F§F§8§3§Aя §x§B§A§F§A§4§5в §x§B§5§F§C§4§F2§x§B§3§F§D§5§40§x§B§0§F§E§5§A2§x§A§E§F§F§5§F0'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 7
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&aТитул &l#7 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а'
+    - ''
+    - '%javascript_anim21_6%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 6 " &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 6 " &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: &#FF0000Т&#FF3000о&#FF5F00ч&#FF8F00н&#FFBF00о &#FFEF00н&#BFFF00е &#60FF00п&#00FF00р&#009F60о&#0040BFп&#0900EFа&#2600C0г&#420092а&#5D0096н&#7900B5д&#9400D3а'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 8
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&aТитул &l#8 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?'
+    - ''
+    - '%javascript_anim21_7%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 7 " §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 7 " §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§2§7§F§F§F§F§lS§x§2§4§F§9§F§E§lK§x§2§2§F§3§F§E§lY§x§1§F§E§D§F§D§lP§x§1§D§E§7§F§D§lV§x§1§A§E§1§F§C§lP §x§1§5§D§5§F§Bр§x§1§2§D§0§F§Aа§x§1§0§C§A§F§Aб§x§0§D§C§4§F§9о§x§0§A§B§E§F§8т§x§0§8§B§8§F§8а§x§0§5§B§2§F§7е§x§0§3§A§C§F§7т§x§0§0§A§6§F§6?'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 9
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&aТитул &l#9 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t'
+    - ''
+    - '%javascript_anim21_8%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 8 " §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 8 " §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§2§7§2§7R§x§F§F§2§F§2§Fe§x§F§F§3§7§3§7c§x§F§F§3§F§3§Fo§x§F§F§4§8§4§8n§x§F§F§5§0§5§0n§x§F§F§5§8§5§8e§x§F§F§6§0§6§0c§x§F§F§6§8§6§8t'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 10
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&aТитул &l#10 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х'
+    - ''
+    - '%javascript_anim21_9%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 9 " §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 9 " §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§E§2§5§9В §x§F§F§D§A§5§8н§x§F§F§D§5§5§7о§x§F§F§D§1§5§7в§x§F§F§C§D§5§6ы§x§F§F§C§9§5§6х §x§F§F§C§0§5§4к§x§F§F§B§C§5§4р§x§F§F§B§8§5§3а§x§F§F§B§4§5§3с§x§F§F§A§F§5§2к§x§F§F§A§B§5§2а§x§F§F§A§7§5§1х'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 11
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&aТитул &l#11 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?'
+    - ''
+    - '%javascript_anim21_10%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§5§6§F§F§F§1К§x§5§F§F§2§F§2о§x§6§9§E§6§F§3г§x§7§2§D§9§F§5д§x§7§B§C§D§F§6а §x§8§E§B§4§F§8о§x§9§7§A§7§F§9б§x§A§1§9§A§F§Aн§x§A§A§8§E§F§Cо§x§B§3§8§1§F§Dв§x§B§D§7§5§F§Eа§x§C§6§6§8§F§F?'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 12
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&aТитул &l#12 &7(TSP#1)'
+    lore:
+    - ''
+    - '&7Уникальный титул после вашего ника!'
+    - ''
+    - '&7Титул: §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?'
+    - ''
+    - '%javascript_anim21_10%'
+    - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addsuffix 10 " §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?"'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили титул: §x§F§F§D§F§5§6П§x§F§E§D§7§6§2о§x§F§D§C§E§6§Eм§x§F§C§C§6§7§Aн§x§F§B§B§D§8§6и§x§F§A§B§5§9§2т§x§F§9§A§C§9§Eе §x§F§7§9§B§B§7B§x§F§6§9§3§C§3o§x§F§5§8§A§C§Fm§x§F§4§8§2§D§Bj§x§F§3§7§9§E§7R§x§F§2§7§1§F§3P§x§F§1§6§8§F§F?'
+    - '[close]'
+  '13':
+    material: spectral_arrow
+    data: 0
+    update: true
+    amount: 1
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim17%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] titles'
+    right_click_commands:
+    - '[openguimenu] titles'

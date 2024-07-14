@@ -1,0 +1,780 @@
+menu_title: '&8Префиксы ▸ Marvel'
+register_command: true
+open_command: mervelprefix
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 1
+    slot: 10
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#1 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&7Dr.Doom&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim93%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%marvel1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&7Dr.Doom&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&7Dr.Doom&f]'
+    - '[close]'
+    right_click_requirements:
+      requirements:
+        a1:
+          type: has permission
+          permission: '%marvel1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 1 "&f[&7Dr.Doom&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&7Dr.Doom&f]'
+    - '[close]'
+  '2':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 2
+    slot: 11
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#2 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&c&lThor&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim94%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%marvel2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&c&lThor&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&c&lThor&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b1:
+          type: has permission
+          permission: '%marvel2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 2 "&f[&c&lThor&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&c&lThor&f]'
+    - '[close]'
+  '3':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 3
+    slot: 12
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#3 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&cSpiderMan&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim95%'
+    - ''
+    left_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: '%marvel3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&cSpiderMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cSpiderMan&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        c1:
+          type: has permission
+          permission: '%marvel3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 3 "&f[&cSpiderMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cSpiderMan&f]'
+    - '[close]'
+  '4':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 4
+    slot: 13
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#4 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&5Thanos&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim96%'
+    - ''
+    left_click_requirement:
+      requirements:
+        d:
+          type: has permission
+          permission: '%marvel4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&5Thanos&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Thanos&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        d1:
+          type: has permission
+          permission: '%marvel4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 4 "&f[&5Thanos&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&5Thanos&f]'
+    - '[close]'
+  '5':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 5
+    slot: 14
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#5 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&8Venom&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim97%'
+    - ''
+    left_click_requirement:
+      requirements:
+        e:
+          type: has permission
+          permission: '%marvel5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&8Venom&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&8Venom&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        e1:
+          type: has permission
+          permission: '%marvel5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 5 "&f[&8Venom&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&8Venom&f]'
+    - '[close]'
+  '6':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 6
+    slot: 15
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#6 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&aAntMan&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim98%'
+    - ''
+    left_click_requirement:
+      requirements:
+        f:
+          type: has permission
+          permission: '%marvel6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&aAntMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aAntMan&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        f1:
+          type: has permission
+          permission: '%marvel6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 6 "&f[&aAntMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aAntMan&f]'
+    - '[close]'
+  '7':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 7
+    slot: 16
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#7 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&2Gamora&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim99%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%marvel7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&2Gamora&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&2Gamora&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g1:
+          type: has permission
+          permission: '%marvel7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 7 "&f[&2Gamora&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&2Gamora&f]'
+    - '[close]'
+  '8':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 8
+    slot: 19
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#8 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&fIronMan&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim100%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%marvel8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&fIronMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fIronMan&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g1:
+          type: has permission
+          permission: '%marvel8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 8 "&f[&fIronMan&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fIronMan&f]'
+    - '[close]'
+  '9':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 9
+    slot: 20
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#9 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&cDeadpool&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim101%'
+    - ''
+    left_click_requirement:
+      requirements:
+        q:
+          type: has permission
+          permission: '%marvel9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&cDeadpool&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cDeadpool&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        q1:
+          type: has permission
+          permission: '%marvel9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 9 "&f[&cDeadpool&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cDeadpool&f]'
+    - '[close]'
+  '10':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 10
+    slot: 21
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#10 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&fMoonknight&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim102%'
+    - ''
+    left_click_requirement:
+      requirements:
+        h:
+          type: has permission
+          permission: '%marvel10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&fMoonknight&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fMoonknight&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        h1:
+          type: has permission
+          permission: '%marvel10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 10 "&f[&fMoonknight&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&fMoonknight&f]'
+    - '[close]'
+  '11':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 11
+    slot: 22
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#11 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&cRocket&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim103%'
+    - ''
+    left_click_requirement:
+      requirements:
+        s:
+          type: has permission
+          permission: '%marvel11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&cRocket&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cRocket&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        s1:
+          type: has permission
+          permission: '%marvel11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 11 "&f[&cRocket&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cRocket&f]'
+    - '[close]'
+  '12':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 12
+    slot: 23
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#12 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&bTesseract&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim104%'
+    - ''
+    left_click_requirement:
+      requirements:
+        z:
+          type: has permission
+          permission: '%marvel12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&bTesseract&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&bTesseract&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        z1:
+          type: has permission
+          permission: '%marvel12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 12 "&f[&bTesseract&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&bTesseract&f]'
+    - '[close]'
+  '13':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 13
+    slot: 24
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#13 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&f&lStorm&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim105%'
+    - ''
+    left_click_requirement:
+      requirements:
+        z:
+          type: has permission
+          permission: '%marvel13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&f&lStorm&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&f&lStorm&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        z1:
+          type: has permission
+          permission: '%marvel13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 13 "&f[&f&lStorm&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&f&lStorm&f]'
+    - '[close]'
+  '14':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 14
+    slot: 25
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#14 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&dGwen&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim106%'
+    - ''
+    left_click_requirement:
+      requirements:
+        v:
+          type: has permission
+          permission: '%marvel14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&dGwen&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&dGwen&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        v1:
+          type: has permission
+          permission: '%marvel14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 14 "&f[&dGwen&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&dGwen&f]'
+    - '[close]'
+  '15':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 15
+    slot: 28
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#15 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&aHulk&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim107%'
+    - ''
+    left_click_requirement:
+      requirements:
+        j:
+          type: has permission
+          permission: '%marvel15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 15 "&f[&aHulk&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aHulk&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        j1:
+          type: has permission
+          permission: '%marvel15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 15 "&f[&aHulk&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&aHulk&f]'
+    - '[close]'
+  '16':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 16
+    slot: 29
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#16 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&eWolverine&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim108%'
+    - ''
+    left_click_requirement:
+      requirements:
+        n:
+          type: has permission
+          permission: '%marvel16.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 16 "&f[&eWolverine&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eWolverine&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        n1:
+          type: has permission
+          permission: '%marvel16.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 16 "&f[&eWolverine&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&eWolverine&f]'
+    - '[close]'
+  '17':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 17
+    slot: 30
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#17 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&cHawkeye&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim109%'
+    - ''
+    left_click_requirement:
+      requirements:
+        m:
+          type: has permission
+          permission: '%marvel17.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 17 "&f[&cHawkeye&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cHawkeye&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        m1:
+          type: has permission
+          permission: '%marvel17.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 17 "&f[&cHawkeye&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&cHawkeye&f]'
+    - '[close]'
+  '18':
+    material: creeper_banner_pattern
+    data: 0
+    amount: 18
+    slot: 31
+    update: true
+    priority: 0
+    display_name: '&bПрефикс &b&l#18 &7(Marvel#1)'
+    lore:
+    - ''
+    - '&7Уникальный префикс перед ником!'
+    - ''
+    - '&7Префикс: &f[&4Daredevil&f]'
+    - ''
+    - ' &fДоступ с привилегии: &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim110%'
+    - ''
+    left_click_requirement:
+      requirements:
+        k:
+          type: has permission
+          permission: '%marvel18.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 18 "&f[&4Daredevil&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Daredevil&f]'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        k1:
+          type: has permission
+          permission: '%marvel18.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Вы не можете использовать эту команду.'
+    right_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[console] lp user %player_name% meta addprefix 18 "&f[&4Daredevil&f] "'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили префикс: &f[&4Daredevil&f]'
+    - '[close]'
+  '19':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    update: true
+    slot: 49
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim111%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] tprefix'
+    right_click_commands:
+    - '[openguimenu] tprefix'

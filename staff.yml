@@ -1,0 +1,103 @@
+menu_title: '&8Сотрудники'
+register_command: true
+open_command: 
+- staff
+- сотрудники
+- родители
+- папы
+- мамы
+size: 45
+update_interval: 1
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk1OGE0YTdhNTNkMzQzYmY2NzIyMTVhNDlmZGM5ZDdjYzQ0NGY2NTE2NmQxNjJjZDYwODcyZWI1ODcxMCJ9fX0=
+    data: 0
+    amount: 1
+    slots:
+    - 20
+    - 22
+    - 24
+    priority: 0
+    display_name: '&cEmpty'
+    lore:
+    - '&8soon'
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                         &d↩'
+    - '[message]                                                     '
+    - '[message] &fВк Фембойчика: &bvk.com/id680634174 &7[Нажми]     '
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                         &d↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                         &d↩'
+    - '[message]                                                     '
+    - '[message] &fВк Фембойчика: &bvk.com/id680634174 &7[Нажми]     '
+    - '[message]                                                     '
+    - '[message] &d↪&d&m                                         &d↩'
+    - '[message]                                                     '
+  'green':
+    material: lime_stained_glass_pane
+    update: true
+    amount: 1
+    slots:
+    - 0-8
+    display_name: '&a&lSPOTYMC &8|&f Сотрудники сервера'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+  'green2':
+    material: lime_stained_glass_pane
+    update: true
+    amount: 1
+    slots: 
+    - 36-44
+    display_name: '&a&lSPOTYMC &8|&f Сотрудники сервера'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim4%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '

@@ -1,0 +1,164 @@
+menu_title: '&8Кликеры'
+register_command: true
+open_command:
+- clicker
+- clickers
+size: 45
+update_interval: 1
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE4YmYzNTYwY2M4ZDA0ODI3NDA2NGNkMDE0MjI1N2Y4YjlmMTI3YmMwNDQ0ZmE1NzExOGRlMzJlODhmMzBkYSJ9fX0=
+    data: 0
+    amount: 1
+    slot: 10
+    update: true
+    priority: 0
+    display_name: '&a⛀ Обычный кликер &d(x1)'
+    lore:
+    - ''
+    - '&7За каждый клик: &f300,000'
+    - '&7Кликов было сделано: &fмиллиард'
+    - ''
+    - '&7Доступен: &fВсем'
+    - '&7Ваш баланс: &f%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim18%'
+    - ''
+    left_click_commands:
+    - '[givemoney] 300000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀300,000&f монет за клик'
+    right_click_commands:
+    - '[givemoney] 300000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀300,000&f монет за клик'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRlNjJmOWE2NzcyOTBmMWY3ZDllYTA4MmFjNjU3N2JiMTk4ZjQyNGQ1M2ZkMTkyMDk1OWY1MDc1MjYxYjkwNyJ9fX0=
+    data: 0
+    amount: 16
+    slot: 12
+    update: true
+    priority: 0
+    display_name: '&d⛃ Топ кликер (x10)'
+    lore:
+    - ''
+    - '&7За каждый клик: &f10,000,000'
+    - '&7Кликов было сделано: &fмиллиард'
+    - ''
+    - '&7Доступен: &fот ⦓&a&lＳＰＯＴＹ&f⦔ и выше'
+    - '&7Ваш баланс: &f%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim18_1%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: spotyclicker.use
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    left_click_commands:
+    - '[givemoney] 10000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀1,000,000&f монет за клик'
+    right_click_requirement:
+      requirements:
+        a1:
+          type: has permission
+          permission: spotyclicker.use
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    right_click_commands:
+    - '[givemoney] 10000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀1,000,000&f монет за клик'
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2NGVlNmU0Mjk5ZDIyZWI3NmQ4YzZjNzA4YmY5ZmJkNDRjNjI2OTA0ZjlmMjE4Yzc3N2IwNzgyMzYzOTk1NiJ9fX0=
+    data: 0
+    amount: 32
+    slot: 14
+    update: true
+    priority: 0
+    display_name: '&e⛃ Супер кликер &d(x100)'
+    lore:
+    - ''
+    - '&7За каждый клик: &f100,000,000'
+    - '&7Кликов было сделано: &fмиллиард'
+    - '' 
+    - '&7Доступен: &fот ⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔ и выше'
+    - '&7Ваш баланс: &f%vault_eco_balance% монет' 
+    - ''
+    - '%javascript_anim18_2%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: phantomclicker.use
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    left_click_commands:
+    - '[givemoney] 100000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀100,000,000&f монет за клик'
+    right_click_requirement:
+      requirements:
+        b1:
+           type: has permission
+           permission: phantomclicker.use
+           deny_commands:
+           - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    right_click_commands:
+    - '[givemoney] 100000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀100,000,000&f монет за клик'        
+  '4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5NzRlYzE5ZDQwZWVmOTJiMmU0YWUzMmFjN2I4NjQ2ZjM0ODljNTA4ZjUwYjE2ZjM4MzUyOTZlMmFkYTIifX19
+    data: 0
+    amount: 64
+    slot: 16
+    update: true
+    priority: 0
+    display_name: '&6⛃ МЕГА КЛИКЕР &d(x1000)'
+    lore:
+    - ''
+    - '&7За каждый клик: &f1,000,000,000'
+    - '&7Кликов было сделано: &fмиллиард'
+    - ''
+    - '&7Доступен: &fот ⦓§x§0§0§C§8§F§F§lＴ§x§1§B§D§1§F§9§lＨ§x§3§6§D§A§F§4§lＵ§x§5§1§E§4§E§E§lＮ§x§6§B§E§D§E§8§lＤ§x§8§6§F§6§E§3§lＥ§x§A§1§F§F§D§D§lＲ&f⦔ и выше'
+    - '&7Ваш баланс: &f%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim18_3%'
+    - ''
+    left_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: thunderclicker.use
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    left_click_commands:
+    - '[givemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀1,000,000,000&f монет за клик'
+    right_click_requirement:
+      requirements:
+        c1:
+          type: has permission
+          permission: thunderclicker.use
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас &cнедостаточно&f прав, чтобы использовать этот кликер! Но вы можете купить донат на сайте &a&lshop.spotymc.ru&f и разблокировать его!'
+    right_click_commands:
+    - '[givemoney] 1000000000'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы получили &6⛀1,000,000,000&f монет за клик'
+  '5':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 31
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim17%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

@@ -1,0 +1,176 @@
+menu_title: '&8Взлом доната'
+register_command: true
+open_command: 
+- methods
+- frees
+update_interval: 1
+size: 45
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQwZjI5MjVkZjM3ZmJkNWY4MDgyOWNhZmIzZTllOWFjMDBmNzVhOTkxYjIxMzFjMjZlMGIyMTk4ZTMwMDAxOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&aСпособ - /hack'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Способ взлома доната'
+    - '&7Награда зависит от вашей удачи'
+    - ''
+    - '%javascript_anim150%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] hack'
+    right_click_commands:
+    - '[openguimenu] hack'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBiZDIyYzJmOTViNjQ4ZmVlMDAwMzI0MWY0ZWI1ZjIyYjU3NzlmOTllZWZjODQ3ZTk4NDkxNmE0YmU5OWFjZSJ9fX0=
+    data: 0
+    amount: 2
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&aСпособ - /free'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Способ взлома доната'
+    - '&7Награда зависит от вашей удачи'
+    - ''
+    - '%javascript_anim151%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] free'
+    right_click_commands:
+    - '[openguimenu] free'
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdiN2E5YzY0ZjdhYTA0YzQ2YTU5NjAwM2IxNDUxMTM0OTQ4NzdlY2JmNjU2ZWE5NzMyMGU2MjRkMjU2ODBmIn19fQ==
+    data: 0
+    amount: 3
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&aСпособ - /freecase'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Способ взлома доната'
+    - '&7Награда зависит от вашей удачи'
+    - ''
+    - '%javascript_anim152%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] freecase'
+    right_click_commands:
+    - '[openguimenu] freecase'
+  '4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4ZDE2YWFlYTkyMTQ2NDFjYzY5YTBkMmQyNjM2N2FjM2VmNzVhNDdkZWNmZGZmZjdjN2RiNTg2NGU2YzE0ZiJ9fX0=
+    data: 0
+    amount: 4
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&aСпособ - /getdonate'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Способ взлома доната'
+    - '&7Награда зависит от вашей удачи'
+    - ''
+    - '%javascript_anim153%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] getdonate'
+    right_click_commands:
+    - '[openguimenu] getdonate'
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUxMzAzMWIwMGIxNGYxNzc5MTE5ZTA1ZTNiOWNlNjJhYTdhZGY2NjdhMjFlZWI0M2Q5MmY0ZmQzNmUzOTY1In19fQ==
+    data: 0
+    amount: 5
+    slot: 24
+    update: true
+    priority: 0
+    display_name: '&d&l⛃ &dДонат за монетки'
+    lore:
+    - ''
+    - '&7Нет денег чтобы купить донат?'
+    - '&7Мы придумали возможность покупать'
+    - '&7донат из игровую валюту!'
+    - ''
+    - '%javascript_anim28%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] mdonate'
+    right_click_commands:
+    - '[openguimenu] mdonate'
+  '6':
+    material: lime_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slots:
+    - 0-8
+    priority: 0
+    display_name: '&a&lSPOTYMC &8|&f Методы по взлому сервера'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim3%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+  '7':
+    material: lime_stained_glass_pane
+    data: 0
+    amount: 1
+    update: true
+    slots:
+    - 36-44
+    priority: 0
+    display_name: '&a&lSPOTYMC &8|&f Методы по взлому сервера'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Покупка донат привилегий на сайте:'
+    - '&a&lshop.spotymc.ru &f[Нажми на предмет]'
+    - '%javascript_anim154%'
+    - ''
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '

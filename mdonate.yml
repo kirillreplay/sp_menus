@@ -1,0 +1,504 @@
+menu_title: '&8Покупка доната за монеты'
+register_command: true
+open_command: mdonate
+update_interval: 1
+size: 54
+items:
+  '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyZGYzMTViNDM1ODNiMTg5NjIzMWI3N2JhZTFhNTA3ZGJkN2U0M2FkODZjMWNmYmUzYjJiOGVmMzQzMGU5ZSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&f[&aВип&f] &f➪ &a100,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a100,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim249%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 100000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 100000'
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 100000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 100000'
+    - '[console] lp user %player_name% parent set vip'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '2':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA1MmJlMWMwNmE0YTMyNTEyOWQ2ZjQxYmI4NGYwZWExY2E2ZjlmNjllYmRmZmY0MzE2ZTc0MjQ1MWM3OWMyMSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&f[&3Премиум&f] &f➪ &a300,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a300,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim250%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 300000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 300000'
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 300000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 300000'
+    - '[console] lp user %player_name% parent set premium'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '3':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IxYWU3YTQ3MTcyOTY1MWI1NjY3YjgxNjk0ZTQ5MjgwOGM1MDkwYzJiMTY4ZjBhOTE5MGZkMDAyZWU1MGEyNiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&f[&eКреатив&f] &f➪ &a10,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a10,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim251%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 10000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 10000000'
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 10000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 10000000'
+    - '[console] lp user %player_name% parent set creative'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '4':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJkZDExZGEwNDI1MmY3NmI2OTM0YmMyNjYxMmY1NGYyNjRmMzBlZWQ3NGRmODk5NDEyMDllMTkxYmViYzBhMiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&f[&cАдмин&f] &f➪ &a50,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a50,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim252%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 50000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 50000000'
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 50000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 50000000'
+    - '[console] lp user %player_name% parent set admin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '5':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVmMTYyZGVmODQ1YWEzZGM3ZDQ2Y2QwOGE3YmY5NWJiZGZkMzJkMzgxMjE1YWE0MWJmZmFkNTIyNDI5ODcyOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&f[&6Элита&f] &f➪ &a100,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a100,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim253%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 100000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 100000000'
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 100000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 100000000'
+    - '[console] lp user %player_name% parent set elite'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '6':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA1MmJlMWMwNmE0YTMyNTEyOWQ2ZjQxYmI4NGYwZWExY2E2ZjlmNjllYmRmZmY0MzE2ZTc0MjQ1MWM3OWMyMSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&f[&9Гл.Админ&f] &f➪ &a200,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a200,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim254%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 200000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 200000000'
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 200000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 200000000'
+    - '[console] lp user %player_name% parent set gladmin'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '7':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVmMTYyZGVmODQ1YWEzZGM3ZDQ2Y2QwOGE3YmY5NWJiZGZkMzJkMzgxMjE1YWE0MWJmZmFkNTIyNDI5ODcyOCJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&f[&6Король&f] &f➪ &a400,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a400,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim255%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 400000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 400000000'
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 400000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 400000000'
+    - '[console] lp user %player_name% parent set korol'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '8':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2OGU2YTVjNGE0NDVkNjBhMzA1MGI1YmVjMWQzN2FmMWIyNTk0Mzc0NWQyZDQ3OTgwMGM4NDM2NDg4MDY1YSJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&f[&9Босс&f] &f➪ &a600,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a600,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim256%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 600000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 600000000'
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 600000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 600000000'
+    - '[console] lp user %player_name% parent set boss'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '9':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzODdmYzI0Njg5M2Q5MmE2ZGQ5ZWExYjUyZGNkNTgxZTk5MWVlZWUyZTI2M2IyN2ZmZjFiY2YxYjE1NGViNyJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&f[&5Создатель&f] &f➪ &a1,000,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a1,000,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim257%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 1000000000'
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 1000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 1000000000'
+    - '[console] lp user %player_name% parent set sozdatel'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '10':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJkZDExZGEwNDI1MmY3NmI2OTM0YmMyNjYxMmY1NGYyNjRmMzBlZWQ3NGRmODk5NDEyMDllMTkxYmViYzBhMiJ9fX0=
+    data: 0
+    amount: 1
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&f[&cТитан&f] &f➪ &a10,000,000,000 монет'
+    lore:
+    - ''
+    - '&7После покупки, вам выдается привилегия.'
+    - '&7Описание привилегии: &f/donate'
+    - ''
+    - '&e€ Как заработать?'
+    - ' &7Используйте кликеры: &f/clickers;'
+    - ' &7Зарабатывайте работая на спавне.'
+    - ''
+    - '&fСтоимость: &a10,000,000,000 монет'
+    - '&fВаш баланс: &a%vault_eco_balance% монет'
+    - ''
+    - '%javascript_anim258%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 10000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    left_click_commands:
+    - '[takemoney] 10000000000'
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 10000000000
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f У вас недостаточно денег.'
+    right_click_commands:
+    - '[takemoney] 10000000000'
+    - '[console] lp user %player_name% parent set titan'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно купили привилегию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Ваш текущий баланс: &a%vault_eco_balance% монет'
+    - '[close]'
+  '11':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 40
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

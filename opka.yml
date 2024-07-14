@@ -1,0 +1,154 @@
+menu_title: '&8Получи &lдонат&8 прямо сейчас!'
+register_command: true
+open_command: opka
+size: 45
+update_interval: 1
+items:
+  '1':
+    material: chest_minecart
+    data: 0
+    update: true
+    amount: 1
+    slot: 11
+    priority: 0
+    display_name: '&6Задание ➀.&f ВКонтакте'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Выполните это задание'
+    - '&7и сразу переходите к следующим:'
+    - ''
+    - ' &6➥ &fВступить в группу: &avk.com/spotymc'
+    - '   &7(поставьте лайк на все записи группы)'
+    - ''
+    - '&7Награда: %javascript_anim6% &fполучения &f⦓&6&lＲＯＹＡＬ&f⦔'
+    - '           %javascript_anim7% &fв кейсах                      '
+    - ''
+    left_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Неизвестная команда, напишите &a/help'
+    - '[close]'
+    right_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Неизвестная команда, напишите &a/help'
+    - '[close]'
+  '2':
+    material: tnt_minecart
+    data: 0
+    update: true
+    amount: 1
+    slot: 12
+    priority: 0
+    display_name: '&cЗадание ➁.&f Донат'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Выполните это задание'
+    - '&7и сразу переходите к следующим:'
+    - ''
+    - ' &c➥ &fКупить донат на сайте &a&lshop.spotymc.ru'
+    - '   &7(чем дороже донат, тем больше шанс)         '
+    - ''
+    - ' &c➥ &fСтарый купленный донат не считается'
+    - ''
+    - '&7Награда: %javascript_anim8% &fполучения &f⦓&6&lＲＯＹＡＬ&f⦔'
+    - '           %javascript_anim9% &fв кейсах                      '
+    - ''
+    left_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Неизвестная команда, напишите &a/help'
+    - '[close]'
+    right_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Неизвестная команда, напишите &a/help'
+    - '[close]'
+  '3':
+    material: paper
+    data: 0
+    update: true
+    amount: 1
+    slot: 13
+    priority: 0
+    display_name: '&a&l✔ &aПроверить задание'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - ' &7Как только вы выполните все задания,'
+    - ' &7нажмите на предмет чтобы проверить!'
+    - ''
+    - '%javascript_anim10%'
+    - ''
+    left_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы еще не выполнили задания!'
+    - '[close]'
+    right_click_commands:
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы еще не выполнили задания!'
+    - '[close]'
+  '4':
+    material: furnace_minecart
+    data: 0
+    update: true
+    amount: 1
+    slot: 14
+    priority: 0
+    display_name: '&aЗадание ➂.&f Игра на сервере'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Выполните это задание'
+    - '&7и сразу переходите к следующим:'
+    - ''
+    - ' &a➥ &fПоиграть на сервере &a&l249&a часов'
+    - ' &a➥ &fУбить &a&l10&a игроков&f на выживании'
+    - ''
+    - '&7Награда: %javascript_anim11% &fполучения &f⦓&6&lＲＯＹＡＬ&f⦔'
+    - ''
+    left_click_commands:
+    - '[player] playtime'
+    - '[close]'
+    right_click_commands:
+    - '[player] playtime'
+    - '[close]'
+  '5':
+    material: hopper_minecart
+    data: 0
+    update: true
+    amount: 1
+    slot: 15
+    priority: 0
+    display_name: '&bЗадание ➃.&f Подписчик'
+    lore:
+    - '&fshop.spotymc.ru'
+    - ''
+    - '&7Выполните это задание'
+    - '&7и сразу переходите к следующим:'
+    - ''
+    - ' &b➥ &fПодписаться на канал создателя'
+    - ''
+    - '&7Награда: %javascript_anim12% &fполучения &f⦓&6&lＲＯＹＡＬ&f⦔'
+    - '           %javascript_anim13% &fполучения доната в /hack      '
+    - ''
+    left_click_commands:
+    - '[message] '
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f хуй вам'
+    - '[message] '
+    - '[close]'
+    right_click_commands:
+    - '[message] '
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f хуй вам'
+    - '[message] '
+    - '[close]'
+  '6':
+    material: spectral_arrow
+    data: 0
+    update: true
+    amount: 1
+    slot: 31
+    priority: 0
+    display_name: '&cЗакрыть'
+    lore:
+    - ''
+    - '&7Быстрый способ выйти из меню'
+    - ''
+    - '%javascript_anim14%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

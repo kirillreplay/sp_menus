@@ -1,0 +1,79 @@
+menu_title: '&8Самый лучший игрок'
+register_command: true
+open_command:
+- bp
+- bestplayer
+- best
+size: 27
+update_interval: 1
+items:
+  '1':
+    material: head-%player_name%
+    data: 0
+    amount: 1
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&bСамый лучший игрок %player_name%'
+    lore:
+    - ''
+    - '&7Текущий самый лучший игрок'
+    - ''
+    - ' &b- %player_name%'
+    - ''
+    - '&7Сброс через: &f%server_countdown_dd.MM.yyyy-HH:mm:ss_{server_time_dd.MM.yyyy}-14:00:00%'
+    - ''
+    - '%javascript_anim155%'
+    - ''
+  '2':
+    material: emerald
+    data: 0
+    amount: 1
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&aСтань самым лучшим игроком!'
+    lore:
+    - ''
+    - '&7Станьте самым лучшим и получите награды!'
+    - ''
+    - '&7Список наград:'
+    - ' &f- Первое место в табе;'
+    - ' &f- Возможность менять позицию в табе;'
+    - ' &f- 1 кейс с флюксами.'
+    - ''
+    - '&fБаланс: &d%playerpoints_points%&f флюксов'
+    - '&fСтоимость: &d799 &fфлюксов'
+    - ''
+    - '%javascript_anim156%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 799
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно флюксов чтобы купить статус, флюксы можно купить на сайте: &a&lshop.spotymc.ru'
+          - '[close]'
+    left_click_commands:
+    - '[takemoney] 799'
+    - '[player] bestplayer buy'
+    - '[console] sprefix position A %player_name%'
+    - '[console] cases give %player_name% 1'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Игрок %player_name% стал &bсамым лучшим игроком&f на сервере!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has money
+          amount: 799
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно флюксов чтобы купить статус, флюксы можно купить на сайте: &a&lshop.spotymc.ru'
+          - '[close]'
+    right_click_commands:
+    - '[takemoney] 799'
+    - '[player] bestplayer buy'
+    - '[console] sprefix position A %player_name%'
+    - '[console] cases give %player_name% 1'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Игрок %player_name% стал &bсамым лучшим игроком&f на сервере!'
+    - '[close]'      

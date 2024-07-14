@@ -1,0 +1,861 @@
+menu_title: '&8Кастомизация ▸ Текст при входе'
+register_command: true
+open_command: jointext
+size: 54
+update_interval: 1
+items:
+  '1':
+    material: painting
+    data: 0
+    amount: 1
+    update: true
+    slot: 10
+    priority: 0
+    display_name: '&bТекст при входе &b&l#1'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &bПриглашен на вечеринку!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim200%'
+    - ''
+    left_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%joiner1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &bПриглашен на вечеринку!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &bПриглашен на вечеринку!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        a:
+          type: has permission
+          permission: '%joiner1.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &bПриглашен на вечеринку!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &bПриглашен на вечеринку!'
+    - '[close]'
+  '2':
+    material: painting
+    data: 0
+    amount: 2
+    update: true
+    slot: 11
+    priority: 0
+    display_name: '&bТекст при входе &b&l#2'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &dЗнаете что такое безумие?'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim201%'
+    - ''
+    left_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%joiner2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &dЗнаете что такое безумие?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dЗнаете что такое безумие?'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        b:
+          type: has permission
+          permission: '%joiner2.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &dЗнаете что такое безумие?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dЗнаете что такое безумие?'
+    - '[close]'
+  '3':
+    material: painting
+    data: 0
+    amount: 3
+    update: true
+    slot: 12
+    priority: 0
+    display_name: '&bТекст при входе &b&l#3'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &cПередайте привет всем, кроме админов'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim202%'
+    - ''
+    left_click_requirement:
+      requirements:
+        q:
+          type: has permission
+          permission: '%joiner3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &cПередайте привет всем, кроме админов'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cПередайте привет всем, кроме админов'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        q:
+          type: has permission
+          permission: '%joiner3.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &cПередайте привет всем, кроме админов'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cПередайте привет всем, кроме админов'
+    - '[close]'
+  '4':
+    material: painting
+    data: 0
+    amount: 4
+    update: true
+    slot: 13
+    priority: 0
+    display_name: '&bТекст при входе &b&l#4'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &7*Тише зашел на сервер*'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim203%'
+    - ''
+    left_click_requirement:
+      requirements:
+        w:
+          type: has permission
+          permission: '%joiner4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &7*Тише зашел на сервер*'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &7*Тише зашел на сервер*'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        w:
+          type: has permission
+          permission: '%joiner4.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &7*Тише зашел на сервер*'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &7*Тише зашел на сервер*'
+    - '[close]'
+  '5':
+    material: painting
+    data: 0
+    amount: 5
+    update: true
+    slot: 14
+    priority: 0
+    display_name: '&bТекст при входе &b&l#5'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &eКто-то сказал %player_name%?'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim204%'
+    - ''
+    left_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%joiner5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &eКто-то сказал %player_name%?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eКто-то сказал %player_name%?'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%joiner5.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &eКто-то сказал %player_name%?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eКто-то сказал %player_name%?'
+    - '[close]'
+  '6':
+    material: painting
+    data: 0
+    amount: 6
+    update: true
+    slot: 15
+    priority: 0
+    display_name: '&bТекст при входе &b&l#6'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &6Добро в мире блоков!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim205%'
+    - ''
+    left_click_requirement:
+      requirements:
+        r:
+          type: has permission
+          permission: '%joiner6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &6Добро в мире блоков!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &6Добро в мире блоков!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        r:
+          type: has permission
+          permission: '%joiner6.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &6Добро в мире блоков!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &6Добро в мире блоков!'
+    - '[close]'
+  '7':
+    material: painting
+    data: 0
+    amount: 7
+    update: true
+    slot: 16
+    priority: 0
+    display_name: '&bТекст при входе &b&l#7'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &cГотовьтесь к выживанию!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim206%'
+    - ''
+    left_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%joiner7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &cГотовьтесь к выживанию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cГотовьтесь к выживанию!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        t:
+          type: has permission
+          permission: '%joiner7.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &cГотовьтесь к выживанию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cГотовьтесь к выживанию!'
+    - '[close]'
+  '8':
+    material: painting
+    data: 0
+    amount: 8
+    update: true
+    slot: 19
+    priority: 0
+    display_name: '&bТекст при входе &b&l#8'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &aПриключения начинаются!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim207%'
+    - ''
+    left_click_requirement:
+      requirements:
+        u:
+          type: has permission
+          permission: '%joiner8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &aПриключения начинаются!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aПриключения начинаются!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        u:
+          type: has permission
+          permission: '%joiner8.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &aПриключения начинаются!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aПриключения начинаются!'
+    - '[close]'
+  '9':
+    material: painting
+    data: 0
+    amount: 9
+    update: true
+    slot: 20
+    priority: 0
+    display_name: '&bТекст при входе &b&l#9'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &8Hello World'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim208%'
+    - ''
+    left_click_requirement:
+      requirements:
+        i:
+          type: has permission
+          permission: '%joiner9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &8Hello World'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &8Hello World'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        i:
+          type: has permission
+          permission: '%joiner9.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &8Hello World'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &8Hello World'
+    - '[close]'
+  '10':
+    material: painting
+    data: 0
+    amount: 10
+    update: true
+    slot: 21
+    priority: 0
+    display_name: '&bТекст при входе &b&l#10'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &2Сквозь блоки и магию!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim209%'
+    - ''
+    left_click_requirement:
+      requirements:
+        s:
+          type: has permission
+          permission: '%joiner10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &2Сквозь блоки и магию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &2Сквозь блоки и магию!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        s:
+          type: has permission
+          permission: '%joiner10.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &2Сквозь блоки и магию!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &2Сквозь блоки и магию!'
+    - '[close]'
+  '11':
+    material: painting
+    data: 0
+    amount: 11
+    update: true
+    slot: 22
+    priority: 0
+    display_name: '&bТекст при входе &b&l#11'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &aОсторожно, криперы!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim210%'
+    - ''
+    left_click_requirement:
+      requirements:
+        d:
+          type: has permission
+          permission: '%joiner11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &aОсторожно, криперы!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aОсторожно, криперы!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        d:
+          type: has permission
+          permission: '%joiner11.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &aОсторожно, криперы!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aОсторожно, криперы!'
+    - '[close]'
+  '12':
+    material: painting
+    data: 0
+    amount: 12
+    update: true
+    slot: 23
+    priority: 0
+    display_name: '&bТекст при входе &b&l#12'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &eОбернись, я уже там!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim211%'
+    - ''
+    left_click_requirement:
+      requirements:
+        f:
+          type: has permission
+          permission: '%joiner12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &eОбернись, я уже там!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eОбернись, я уже там!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        f:
+          type: has permission
+          permission: '%joiner12.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &eОбернись, я уже там!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eОбернись, я уже там!'
+    - '[close]'
+  '13':
+    material: painting
+    data: 0
+    amount: 13
+    update: true
+    slot: 24
+    priority: 0
+    display_name: '&bТекст при входе &b&l#13'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &6Здесь каждый блок - часть вашей истории!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim212%'
+    - ''
+    left_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%joiner13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &6Здесь каждый блок - часть вашей истории!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &6Здесь каждый блок - часть вашей истории!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        g:
+          type: has permission
+          permission: '%joiner13.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &6Здесь каждый блок - часть вашей истории!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &6Здесь каждый блок - часть вашей истории!'
+    - '[close]'
+  '14':
+    material: painting
+    data: 0
+    amount: 14
+    update: true
+    slot: 25
+    priority: 0
+    display_name: '&bТекст при входе &b&l#14'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &dГотовы к кубическим подвигам?'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim213%'
+    - ''
+    left_click_requirement:
+      requirements:
+        h:
+          type: has permission
+          permission: '%joiner14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &dГотовы к кубическим подвигам?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dГотовы к кубическим подвигам?'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        h:
+          type: has permission
+          permission: '%joiner14.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &dГотовы к кубическим подвигам?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dГотовы к кубическим подвигам?'
+    - '[close]'
+  '15':
+    material: painting
+    data: 0
+    amount: 15
+    update: true
+    slot: 28
+    priority: 0
+    display_name: '&bТекст при входе &b&l#15'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &fВаша фантазия - единственное ограничение!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim214%'
+    - ''
+    left_click_requirement:
+      requirements:
+        j:
+          type: has permission
+          permission: '%joiner15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &fВаша фантазия - единственное ограничение!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &fВаша фантазия - единственное ограничение!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        j:
+          type: has permission
+          permission: '%joiner15.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &fВаша фантазия - единственное ограничение!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &fВаша фантазия - единственное ограничение!'
+    - '[close]'
+  '16':
+    material: painting
+    data: 0
+    amount: 16
+    update: true
+    slot: 29
+    priority: 0
+    display_name: '&bТекст при входе &b&l#16'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &aГотовы к кубическому хаосу? Добро пожаловать!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim215%'
+    - ''
+    left_click_requirement:
+      requirements:
+        k:
+          type: has permission
+          permission: '%joiner16.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &aГотовы к кубическому хаосу? Добро пожаловать!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aГотовы к кубическому хаосу? Добро пожаловать!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        k:
+          type: has permission
+          permission: '%joiner16.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &aГотовы к кубическому хаосу? Добро пожаловать!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aГотовы к кубическому хаосу? Добро пожаловать!'
+    - '[close]'
+  '17':
+    material: painting
+    data: 0
+    amount: 17
+    update: true
+    slot: 30
+    priority: 0
+    display_name: '&bТекст при входе &b&l#17'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &cСамый &lглавный Клоун&c подключился!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim216%'
+    - ''
+    left_click_requirement:
+      requirements:
+        l:
+          type: has permission
+          permission: '%joiner17.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &cСамый &lглавный Клоун&c подключился!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cСамый &lглавный Клоун&c подключился!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        l:
+          type: has permission
+          permission: '%joiner17.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &cСамый &lглавный Клоун&c подключился!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &cСамый &lглавный Клоун&c подключился!'
+    - '[close]'
+  '18':
+    material: painting
+    data: 0
+    amount: 18
+    update: true
+    slot: 31
+    priority: 0
+    display_name: '&bТекст при входе &b&l#18'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &aВерните пожалуйста донат!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim217%'
+    - ''
+    left_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: '%joiner18.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &aВерните пожалуйста донат!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aВерните пожалуйста донат!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        c:
+          type: has permission
+          permission: '%joiner18.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &aВерните пожалуйста донат!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &aВерните пожалуйста донат!'
+    - '[close]'
+  '19':
+    material: painting
+    data: 0
+    amount: 19
+    update: true
+    slot: 32
+    priority: 0
+    display_name: '&bТекст при входе &b&l#19'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &bДеньги всегда нужны!!!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim218%'
+    - ''
+    left_click_requirement:
+      requirements:
+        x:
+          type: has permission
+          permission: '%joiner19.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &bДеньги всегда нужны!!!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &bДеньги всегда нужны!!!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        x:
+          type: has permission
+          permission: '%joiner19.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &bДеньги всегда нужны!!!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &bДеньги всегда нужны!!!'
+    - '[close]'
+  '20':
+    material: painting
+    data: 0
+    amount: 20
+    update: true
+    slot: 33
+    priority: 0
+    display_name: '&bТекст при входе &b&l#20'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &dЛучшему игроку привет, остальным пока!'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim219%'
+    - ''
+    left_click_requirement:
+      requirements:
+        m:
+          type: has permission
+          permission: '%joiner20.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &dЛучшему игроку привет, остальным пока!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dЛучшему игроку привет, остальным пока!'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        m:
+          type: has permission
+          permission: '%joiner20.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &dЛучшему игроку привет, остальным пока!'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &dЛучшему игроку привет, остальным пока!'
+    - '[close]'
+  '21':
+    material: painting
+    data: 0
+    amount: 21
+    update: true
+    slot: 34
+    priority: 0
+    display_name: '&bТекст при входе &b&l#21'
+    lore:
+    - ''
+    - '&7Демонстрация текста при входе:'
+    - ' &a▸ &f%player_name% &eКогда новая обнова?'
+    - ''
+    - '&f Доступно от &f[&cОператор&f]'
+    - ''
+    - '%javascript_anim220%'
+    - ''
+    left_click_requirement:
+      requirements:
+        n:
+          type: has permission
+          permission: '%joiner21.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    left_click_commands:
+    - '[console] joiner settext %player_name% &eКогда новая обнова?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eКогда новая обнова?'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        n:
+          type: has permission
+          permission: '%joiner21.use%'
+          deny_commands:
+          - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Недостаточно прав! Команда доступна от &f[&cОператор&f]'
+    right_click_commands:
+    - '[console] joiner settext %player_name% &eКогда новая обнова?'
+    - '[message] §x§3§F§F§8§0§8§lS§x§3§F§F§7§1§F§lP§x§3§E§F§5§3§6§lO§x§3§E§F§4§4§E§lT§x§3§E§F§3§6§5§lY§x§3§D§F§1§7§C§lM§x§3§D§F§0§9§3§lC &8|&f Вы успешно поставили текст при входе: &eКогда новая обнова?'
+    - '[close]'
+  '22':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 48
+    update: true
+    priority: 0
+    display_name: '&bНазад'
+    lore:
+    - ''
+    - '&7Откроет предыдущее меню'
+    - ''
+    - '%javascript_anim89%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] custom'
+    right_click_commands:
+    - '[openguimenu] custom'
+  '23':
+    material: spectral_arrow
+    data: 0
+    amount: 1
+    slot: 50
+    update: true
+    priority: 0
+    display_name: '&bСледующее'
+    lore:
+    - ''
+    - '&7Откроет следующее меню'
+    - ''
+    - '%javascript_anim111%'
+    - ''
+    left_click_commands:
+    - '[openguimenu] jointext2'
+    right_click_commands:
+    - '[openguimenu] jointext2'

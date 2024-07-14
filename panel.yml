@@ -1,0 +1,133 @@
+menu_title: '&8Панель для донатеров'
+register_command: true
+open_command: panel
+size: 45
+update_interval: 1
+items:
+ '1':
+    material: basehead-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE5YmRlZjE1MTgzYzNkMGRhYzcyZWVlNzIxNGIxM2ZkYWU0ZTM4OTYwOWExMjEyZDFlMTYzMmEzZDg1YTMxIn19fQ==
+    data: 0
+    update: true
+    amount: 1
+    slot: 21
+    priority: 0
+    display_name: '&8[&d▸ &d&nРежим консоли&8]'
+    lore:
+      - '&8[&aВключить&8/&cВыключить&8]'
+      - ''
+      - '&7Позволяет следить за командами игроков'
+      - ''
+      - ' &fДоступно от [&d&lХелпер&f]'
+      - ''
+      - '%javascript_anim1%'
+      - ''
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+ '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM4YzBkMmYxZWMyNjc1NGRjYTNjN2NkYWUzMWYxZjE2NDg4M2Q0NTNlNjg4NjQzZGEwNDc1NjhlN2ZhNWNjOSJ9fX0=
+    data: 0
+    update: true
+    amount: 1
+    slot: 22
+    priority: 0
+    display_name: '&8[&d▸ &d&nЛаки Блоки&8]'
+    lore:
+      - '&8[&aПерезапустить&8]'
+      - ''
+      - '&7Обнуление и перезапуск лаки-блоков'
+      - ''
+      - ' &fДоступно от &f⦓§x§F§F§5§7§B§2§lＰ§x§F§A§4§9§B§4§lＨ§x§F§5§3§A§B§6§lＡ§x§F§0§2§C§B§9§lＮ§x§E§A§1§D§B§B§lＴ§x§E§5§0§F§B§D§lＯ§x§E§0§0§0§B§F§lＭ&f⦔'
+      - ''
+      - '%javascript_anim1%'
+      - ''
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+ '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg5NDA0MjMzZTg5YTVjOThlZTlkNjk4MTIzMTFlN2M1NGZkODMwMDc1OWUwYTY1MjUwNDJhNmY4OTJlOWRhYyJ9fX0=
+    data: 0
+    update: true
+    amount: 1
+    slot: 23
+    priority: 0
+    display_name: '&8[&d▸ &d&nБроня Силача&8]'
+    lore:
+      - '&8[&aВыдать себе&8]'
+      - ''
+      - '&7Выдать себе весь комплект брони силача'
+      - ''
+      - ' &fДоступно от &f[&4&lКонсоль&f]'
+      - ''
+      - '%javascript_anim1%'
+      - ''
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+ 'red':
+    material: red_stained_glass_pane
+    update: true
+    display_name: '&4&lSPOTYMC &8|&f Панель для геев'
+    lore:
+      - '&fshop.spotymc.ru'
+      - ''
+      - '&7Покупка донат привилегий на сайте:'
+      - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+      - '%javascript_anim2%'
+      - ''
+    amount: 1
+    slots:
+      - 0-8
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &a&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &a&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &a↪&a&m                                                    &a↩'
+    - '[message]                                                     ' 
+ 'red2':
+    material: red_stained_glass_pane
+    update: true
+    display_name: '&4&lSPOTYMC &8|&f Панель для геев'
+    lore:
+      - '&fshop.spotymc.ru'
+      - ''
+      - '&7Покупка донат привилегий на сайте:'
+      - '&c&lshop.spotymc.ru &f[Нажми на предмет]'
+      - '%javascript_anim5%'
+      - ''
+    amount: 1
+    slots:
+    - 36-44
+    left_click_commands:
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
+    right_click_commands:
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
+    - '[message] &fПриобрести можно на сайте &c&lshop.spotymc.ru &7[Нажми]'
+    - '[message] &fПривилегия после &c&lВайпа&f не снимается.'
+    - '[message]                                                     '
+    - '[message] &4↪&4&m                                                    &4↩'
+    - '[message]                                                     '
